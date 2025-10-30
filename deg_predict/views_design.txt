@@ -1,0 +1,60 @@
+import pandas as pd
+import numpy as np
+import joblib
+from .ml.utils import upload_and_preprocess_data_from_db, train_decision_tree, train_svm_sentiment
+from django.shortcuts import render
+
+# Create your views here.
+
+shsgpa = 0
+collgpa = 0
+selected_sex = ''
+bh = ''
+liv_fam = ''
+
+
+def predict(request):
+    if request.method == "POST":
+        shsgpa = float(request.POST.get('shsGPA', 0))
+        collgpa = float(request.POST.get('collGPA', 0))
+        sex = str(request.POST.get('sex', ''))
+        age = int(request.POST.get('age', 0))
+        bh = str(request.POST.get('bh', ''))
+        liv_fam = str(request.POST.get('liv_fam', ''))
+        liv_prov = str(request.POST.get('liv_prov', ''))
+        schlr = str(request.POST.get('schlr', ''))
+        f_educ = str(request.POST.get('f_educ', ''))
+        m_educ = str(request.POST.get('m_educ', ''))
+        fin_inc = float(request.POST.get('fin_inc'))
+        feeback = str(request.POST.get('feedback', ''))
+
+        X, y, X_feedback, y_sentiment, scaler = upload_and_preprocess_data_from_db()
+        dt_model, _, _ = train_decision_tree(X, y)
+        svm_model, _, _ = train_svm_sentiment(X_feedback, y_sentiment)
+
+        input_data = pd.DataFrame({
+            'SHS_GPA_AVERAGE': [shsgpa],
+            'COLL_GPA_AVERAGE': [collgpa],
+            'AGE': [age],
+            'SEX': [sex],
+            'IS_BOARDING': [bh],
+            'IS_LIVING_WITH_FAMILY': [liv_fam],
+            'IS_PROVINCE': [liv_prov],
+            'IS_SCHOLAR': [schlr],
+            'FATHER_EDUC_BACKGROUND': [f_educ],
+            'MOTHER_EDUC_BACKGROUND': [m_educ],
+            'PARENTS_MONTHLY_INCOME': [fin_inc]
+        })
+
+        numerical_cols = ['SHS_GPA_AVERAGE',
+                          'COLL_GPA_AVERAGE', 'AGE', 'PARENTS_MONTHLY_INCOME']
+        scaler = joblib.load('predictors/ml/scaler.pkl')
+        input_data[numerical_cols] = scaler.transform(
+            input_data[numerical_cols])
+        # return input_data
+
+    # return render(request, 'my_template.html', {'selected_sex': selected_sex})
+        return render(request, 'predict/display.html', {
+            'sex': sex,
+        })
+    return render(request, 'predict/attributes.html')

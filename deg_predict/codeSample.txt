@@ -1,0 +1,145 @@
+<div class="container">
+
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+
+            <div class="col-xl-10 col-lg-12 col-md-12">
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row">
+                              <div class="col-lg-4 d-none d-lg-block bg-register-image"></div>
+                            <div class="col-lg-7">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h1 class="h4 text-gray-900 mb-4">Academic Attributes</h1>                                    
+                                    </div>
+                                    <form class="user">
+                                        <div class="form-group row">
+                                            <div class="col-sm-6 mb-3 mb-sm-0">
+                                                Senior High School GPA
+                                                <select id="shsGPA" class="form-control form-control-user">
+                                                    <option selected disabled>--Select Grade--</option>                                                
+                                                </select>    
+                                            </div>                                                                                 
+                                       
+                                            <div class="col-sm-6">
+                                                <label for="collGPA">College GPA Four Semesters</label>
+                                                <select id="collGPA" class="form-control form-control-user">
+                                                    <option selected disabled>--Select Grade--</option>                                                
+                                                </select>                                                                                     
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            Age
+                                            <input type="number" class="form-control form-control-user"
+                                                id="age" placeholder="Age of the Student" min=1 max=120>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sex">Sex</label>
+                                            <select id="sex" class="form-control form-control-user">
+                                                <option selected disabled>--Select Sex--</option> 
+                                                <option value = 1>Male</option>                                              
+                                                <option value = 0>Female</option>                                               
+                                            </select>                                                                                     
+                                        </div>
+                                        <div class="form-group">
+                                            Living in a Boarding House
+                                            <select id="bh" class="form-control form-control-user">
+                                                <option selected disabled>--Select-</option>  
+                                                <option value=1>Yes</option>                                              
+                                                <option value=0>No</option>                                              
+                                            </select>  
+                                        </div>
+                                        <div class="form-group">
+                                            Living with Family
+                                            <select id="family" class="form-control form-control-user">
+                                                <option selected disabled>--Select--</option>  
+                                                <option value=1>Yes</option>                                              
+                                                <option value=0>No</option>                                              
+                                            </select>  
+                                        </div>
+                                        <div class="form-group">
+                                            Living in the Province
+                                            <select id="prov" class="form-control form-control-user">
+                                                <option selected disabled>--Select--</option>  
+                                                <option value=1>Yes</option>                                              
+                                                <option value=0>No</option>                                              
+                                            </select>  
+                                        </div>
+                                        <div class="form-group">
+                                            Are you a scholar?
+                                            <select id="scholar" class="form-control form-control-user">
+                                                <option selected disabled>--Select--</option>  
+                                                <option value=1>Yes</option>                                              
+                                                <option value=0>No</option>                                              
+                                            </select>  
+                                        </div>
+                                        <div class="form-group">
+                                            Father Educational Background
+                                            <select id="f_educ" class="form-control form-control-user">
+                                                <option selected disabled>--Select--</option>  
+                                                <option value=1>Primary Education</option>                                              
+                                                <option value=2>Secondary Education</option>    
+                                                <option value=3>College Level</option>                                              
+                                                <option value=4>College Degree</option>                                         
+                                                <option value=5>Post Graduate</option>                                          
+                                            </select>  
+                                        </div>
+                                        <div class="form-group">
+                                            Mother Educational Background
+                                            <select id="m_educ" class="form-control form-control-user">
+                                                <option selected disabled>--Select--</option>  
+                                                <option value=1>Primary Education</option>                                              
+                                                <option value=2>Secondary Education</option>    
+                                                <option value=3>College Level</option>                                              
+                                                <option value=4>College Degree</option>                                         
+                                                <option value=5>Post Graduate</option>                                          
+                                            </select>  
+                                        </div>
+                                        <div class="form-group">
+                                            Parents Financial Monthly Income
+                                            <select id="f_ed" class="form-control form-control-user">
+                                                <option selected disabled>--Select--</option>  
+                                                <option value=1>less than 10,957</option>                                              
+                                                <option value=2>10,957 to 21,914</option>    
+                                                <option value=3>43,828 to 76,669</option>                                              
+                                                <option value=4>76,669 to 131,484</option>                                         
+                                                <option value=5>131,484 to 219,140</option>                                          
+                                                <option value=5>219,140 and above </option>                                        
+                                            </select>  
+                                        </div>
+                                          <div class="form-group">
+                                            Students Feedback
+                                            <input type="text" class="form-control form-control-user" id="feeback" placeholder="Input your feedback" size=100>
+                                            
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-control custom-checkbox small">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck">
+                                                <label class="custom-control-label" for="customCheck">Remember
+                                                    Me</label>
+                                            </div>
+                                        </div>
+                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                            Login
+                                        </a>                                        
+                                    </form>
+                                    <hr>
+                                    <div class="text-center">
+                                        <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                    </div>
+                                    <div class="text-center">
+                                        <a class="small" href="register.html">Create an Account!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>

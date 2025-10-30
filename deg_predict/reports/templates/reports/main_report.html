@@ -1,0 +1,136 @@
+{% extends "dashboard/dashboard.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <h3 class="mb-4 text-primary">Report Dashboard</h3>
+
+    <!-- Dropdown Selector -->
+    <div class="form-group">
+        <label for="reportSelector"><strong>Select Report Type:</strong></label>
+        <select id="reportSelector" class="form-control" onchange="showReport(this.value)">
+            <option value="">-- Select --</option>
+            <option value="risk">Risk Indicator Report</option>
+            <option value="graduate">Graduate Prediction Report</option>
+            <option value="graduate_per_college">Graduate Prediction Report - College</option>
+            <option value="graduate_per_course">Graduate Prediction Report - Course</option>
+            <option value="at_risk_students_course">Distribution of At-Risk Students - Course</option>
+            <option value="at_risk_students">List of At-Risk Students</option>
+            <option value="sentiment">Sentiment Distribution</option>
+            <option value="sentiment_wordcloud">Sentiment Word Cloud</option>
+            
+        </select>
+    </div>
+
+    <!-- Chart Containers -->
+    <div id="risk" class="report-chart mt-4" style="display: none;">
+        <div id="riskContainer"></div>
+    </div>
+    <div id="graduate" class="report-chart mt-4" style="display: none;">
+        <div id="graduateContainer"></div>
+    </div>
+    <div id="graduate_per_college" class="report-chart mt-4" style="display: none;">
+        <div id="graduate_per_collegeContainer"></div>
+    </div>
+    <div id="graduate_per_course" class="report-chart mt-4" style="display: none;">
+        <div id="graduate_per_courseContainer"></div>
+    </div>
+    <div id="at_risk_students_course" class="report-chart mt-4" style="display: none;">
+        <div id="at_risk_students_courseContainer"></div>
+    </div>
+    <div id="at_risk_students" class="report-chart mt-4" style="display: none;">
+        <div id="at_risk_studentsContainer">
+            {% comment %} <p><a href="/reports/charts/at-risk-students/" target="_blank">View Full List of At-Risk Students</a></p> {% endcomment %}
+         
+        </div>        
+    </div>
+    <div id="sentiment" class="report-chart mt-4" style="display: none;">
+         <div id="sentimentContainer"></div>
+    </div>
+    <div id="sentiment_wordcloud" class="report-chart mt-4" style="display: none;">
+        <div id="sentiment_wordcloudContainer"></div>
+    </div>
+</div>
+
+
+
+
+<!-- JavaScript -->
+<script>
+function showReport(reportId) {
+    const allSections = document.querySelectorAll('.report-chart');
+    allSections.forEach(div => div.style.display = 'none');
+
+    if (!reportId) return;
+
+    const section = document.getElementById(reportId);
+    const container = document.getElementById(reportId + 'Container');
+
+    section.style.display = 'block';
+    container.innerHTML = '';  // Clear previous content
+
+
+    if (!section || !container) {
+        console.warn("Missing container for:", reportId);
+        return;
+    }    
+
+       
+    if (!container) {
+        console.warn("Missing container for:", reportId);
+        return;
+    }
+   
+
+    // Special case: Load at-risk students list (HTML)
+    if (reportId === 'at_risk_students') {
+        fetch("{% url 'at_risk_students' %}")
+            .then(response => response.text())
+            .then(html => {
+                section.innerHTML = html;  // Replace whole section with returned HTML
+            })
+            .catch(error => {
+                console.error("Error loading at-risk students:", error);
+                container.innerHTML = "<p class='text-danger'>Failed to load data.</p>";
+            });
+        return;
+    }
+    section.style.display = 'block';
+    container.innerHTML = '';  // Clear previous content
+
+    const reportUrls = {
+        'risk': [
+            { url: '{% url "risk_report_bar" %}', label: "Bar Chart" },
+            { url: '{% url "risk_report_pie" %}', label: "Pie Chart" }
+        ],
+        'graduate': [
+            { url: '{% url "hybrid_distribution_chart" %}', label: "Graduate Prediction" }
+        ],
+        'graduate_per_college': [
+            { url: '{% url "graduate_by_college" %}', label: "Graduate Prediction - College" }
+        ],
+        'graduate_per_course': [
+            { url: '{% url "graduate_by_course" %}', label: "Graduate Prediction - Course" }
+        ],
+        'at_risk_students_course': [
+            { url: '{% url "at_risk_students_by_course" %}', label: "Distribution of At-Risk Students" }
+        ], 
+        'sentiment': [
+         { url: '{% url "sentiment_distribution" %}', label: "Sentiment Distribution" }
+        ],   
+        'sentiment_wordcloud': [
+         { url: '{% url "sentiment_wordcloud" %}', label: "Sentiment Word Cloud" }
+],
+    };
+
+    const charts = reportUrls[reportId] || [];
+    charts.forEach(chart => {
+        const img = document.createElement('img');
+        img.src = chart.url + '?t=' + new Date().getTime();
+        img.alt = chart.label;
+        img.className = "img-fluid mb-3";
+        container.appendChild(img);
+    });
+}
+</script>
+{% endblock %}

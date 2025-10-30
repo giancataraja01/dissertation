@@ -1,0 +1,35 @@
+
+{% block content %}
+
+<div class="container">
+    <h3 class="mb-4 text-primary">At-Risk Students by Course</h3>
+
+    {% if grouped_students %}
+        {% for course, students in grouped_students.items %}
+            <div class="card mb-4 shadow">
+                <div class="card-header">
+                    <h6 class="m-0 font-weight-bold text-secondary">Course: {{ course }}</h6>
+                </div>
+                <div class="card-body">
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr><th>#</th><th>Name</th></tr>
+                        </thead>
+                        <tbody>
+                            {% for name in students %}
+                                <tr><td>{{ forloop.counter }}</td><td>{{ name }}</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        {% endfor %}
+        <a href="{% url 'download_at_risk_students_pdf' %}" class="btn btn-success ml-2">
+            ⬇ Download as PDF
+        </a>
+    {% else %}
+        <div class="alert alert-info">No at-risk students found.</div>
+    {% endif %}
+</div>
+{% endblock %}

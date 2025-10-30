@@ -1,0 +1,1001 @@
+1,English,Negative,1,1,Library,Limited copies of required books.
+2,English,Negative,1,1,EDP,EDP lines were too long during enrollment. 
+3,English,Positive,2,2,Guidance/Counseling,Counselors were empathetic and available by appointment.
+4,English,Negative,1,1,Clinic,Some medicines were unavailable.
+5,English,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. 
+6,English,Positive,2,2,Guidance/Counseling,Clear referral process for specialized support. 
+7,English,Neutral,0,0,Clinic,Clinic service was adequate for basic needs. 
+8,English,Positive,2,2,Guidance/Counseling,Counselors were empathetic and available by appointment.
+9,English,Neutral,0,0,Clinic,Check-ups were short but sufficient. 
+10,English,Neutral,0,0,Guidance/Counseling,Group sessions were fine for basics.
+11,English,Positive,2,2,SAO,SAO organized student events well. 
+12,English,Negative,1,1,Administration,Announcements came late and caused confusion. 
+13,English,Positive,2,2,Clinic,Quick response to minor health concerns. 
+14,English,Negative,1,1,Faculty,A few instructors read slides without engagement. 
+15,English,Neutral,0,0,Clinic,Check-ups were short but sufficient.
+16,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+17,English,Neutral,0,0,SAO,Interactions were straightforward. 
+18,English,Neutral,0,0,Library,Resources were basic but useful.
+19,English,Positive,2,2,EDP,EDP services were reliable throughout my stay. 
+20,English,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. 
+21,English,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. 
+22,English,Negative,1,1,Laboratories,Some equipment was shared among too many sections. 
+23,English,Neutral,0,0,Guidance/Counseling,Services existed if you reached out. 
+24,English,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. 
+25,English,Neutral,0,0,Clinic,Clinic service was adequate for basic needs.
+26,English,Negative,1,1,Guidance/Counseling,Some sessions felt too brief. 
+27,English,Positive,2,2,Library,Extended hours during finals were a big help.
+28,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours.
+29,English,Positive,2,2,Finance/Scholarships,Tuition was affordable and payment plans helped. 
+30,English,Neutral,0,0,Library,"Printing services worked, with occasional delays. "
+31,English,Neutral,0,0,Administration,Queues varied depending on the time of day. 
+32,English,Positive,2,2,Laboratories,Safety protocols were enforced well. 
+33,English,Positive,2,2,EDP,EDP staff processed requests quickly and accurately. 
+34,English,Negative,1,1,Finance/Scholarships,Queueing for payments took too long. 
+35,English,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. 
+36,English,Negative,1,1,Registrar,Queueing system needs improvementment.
+37,English,Neutral,0,0,Laboratories,Supplies were enough for most experiments. 
+38,English,Neutral,0,0,Finance/Scholarships,Refunds took time but were processed. 
+39,English,Positive,2,2,Administration,Admin staff were responsive during deadlines. 
+40,English,Negative,1,1,Library,Aircon and seating were not enough during peak days. 
+41,English,Negative,1,1,Guidance/Counseling,Some sessions felt too brief.
+42,English,Positive,2,2,Library,E-resources were accessible off-campus. 
+43,English,Neutral,0,0,SAO,Interactions were straightforward. 
+44,English,Positive,2,2,Administration,Processing time improvementd compared to previous years. 
+45,English,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. 
+46,English,Negative,1,1,Clinic,Limited operating hours for the clinic. 
+47,English,Neutral,0,0,Registrar,Processing time varied by month. 
+48,English,Positive,2,2,Registrar,Staff guided me through clearance with patience. 
+49,English,Neutral,0,0,Laboratories,Scheduling was tight but workable. 
+50,English,Neutral,0,0,Library,"Printing services worked, with occasional delays."
+51,English,Negative,1,1,Administration,Some offices were understaffed during peak periods. 
+52,English,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. 
+53,English,Positive,2,2,Clinic,Quick response to minor health concerns. 
+54,English,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. 
+55,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours.
+56,English,Negative,1,1,SAO,Slow processing of event permits. 
+57,English,Neutral,0,0,Library,Library rules were enforced fairly. 
+58,English,Negative,1,1,EDP,EDP lines were too long during enrollment. 
+59,English,Positive,2,2,Library,Extended hours during finals were a big help. 
+60,English,Neutral,0,0,Finance/Scholarships,Refunds took time but were processed.
+61,English,Positive,2,2,Registrar,Staff guided me through clearance with patience. 
+62,English,Negative,1,1,Registrar,Queueing system needs improvementment.
+63,English,Negative,1,1,Administration,Paperwork was slow and required multiple follow-ups. 
+64,English,Negative,1,1,Library,Catalog search was sometimes down.
+65,English,Neutral,0,0,Laboratories,Supplies were enough for most experiments.
+66,English,Neutral,0,0,Guidance/Counseling,Group sessions were fine for basics. 
+67,English,Neutral,0,0,Clinic,Clinic service was adequate for basic needs. 
+68,English,Negative,1,1,Administration,Announcements came late and caused confusion. 
+69,English,Negative,1,1,Library,Catalog search was sometimes down. 
+70,English,Positive,2,2,Clinic,Quick response to minor health concerns.
+71,English,Neutral,0,0,Clinic,Clinic service was adequate for basic needs. 
+72,English,Negative,1,1,EDP,EDP lines were too long during enrollment. 
+73,English,Neutral,0,0,Registrar,Processing time varied by month.
+74,English,Positive,2,2,Administration,Processing time improvementd compared to previous years.
+75,English,Neutral,0,0,EDP,EDP performance was generally consistent. 
+76,English,Negative,1,1,Faculty,Office hours were hard to catch.
+77,English,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. 
+78,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. "
+79,English,Negative,1,1,SAO,Slow processing of event permits. 
+80,English,Neutral,0,0,Laboratories,Supplies were enough for most experiments. 
+81,English,Positive,2,2,Finance/Scholarships,Scholarship office was supportive and fair. 
+82,English,Positive,2,2,EDP,System updates were timely and reduced errors. 
+83,English,Negative,1,1,Clinic,Small space made it crowded at times.
+84,English,Negative,1,1,Library,Catalog search was sometimes down.
+85,English,Positive,2,2,Clinic,Quick response to minor health concerns.
+86,English,Positive,2,2,Laboratories,Safety protocols were enforced well.
+87,English,Neutral,0,0,Clinic,Location was convenient within campus.
+88,English,Positive,2,2,SAO,SAO organized student events well.
+89,English,Positive,2,2,Registrar,Staff guided me through clearance with patience. 
+90,English,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs.
+91,English,Positive,2,2,Registrar,Transcript requests were processed faster than expected. 
+92,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+93,English,Negative,1,1,Clinic,Limited operating hours for the clinic.
+94,English,Neutral,0,0,Finance/Scholarships,Fees were expected and comparable to peers. 
+95,English,Negative,1,1,Library,Catalog search was sometimes down. 
+96,English,Neutral,0,0,Administration,Most forms were available but required signatures across offices. 
+97,English,Neutral,0,0,Library,Library rules were enforced fairly. 
+98,English,Positive,2,2,Clinic,Clinic staff were caring and professional. 
+99,English,Positive,2,2,Registrar,Clear checklist reduced back-and-forth. 
+100,English,Positive,2,2,EDP,EDP services were reliable throughout my stay. 
+101,English,Neutral,0,0,Administration,"Processes were standard; not fast, not too slow."
+102,English,Positive,2,2,EDP,EDP staff processed requests quickly and accurately. 
+103,English,Negative,1,1,Library,Catalog search was sometimes down.
+104,English,Negative,1,1,Registrar,Document release took longer than the posted timeline. 
+105,English,Neutral,0,0,Registrar,Email replies were concise but short. 
+106,English,Neutral,0,0,SAO,Approvals took varying times. 
+107,English,Positive,2,2,Guidance/Counseling,Clear referral process for specialized support. 
+108,English,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. 
+109,English,Neutral,0,0,Guidance/Counseling,Services existed if you reached out.
+110,English,Negative,1,1,Guidance/Counseling,Some sessions felt too brief.
+111,English,Neutral,0,0,Library,Resources were basic but useful. 
+112,English,Positive,2,2,Clinic,Quick response to minor health concerns.
+113,English,Positive,2,2,Registrar,Staff guided me through clearance with patience.
+114,English,Negative,1,1,Faculty,Office hours were hard to catch.
+115,English,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. 
+116,English,Neutral,0,0,Registrar,Processing time varied by month. 
+117,English,Neutral,0,0,Administration,Queues varied depending on the time of day. 
+118,English,Negative,1,1,Administration,Paperwork was slow and required multiple follow-ups. 
+119,English,Neutral,0,0,Laboratories,Scheduling was tight but workable.
+120,English,Neutral,0,0,Guidance/Counseling,Services existed if you reached out. 
+121,English,Neutral,0,0,Finance/Scholarships,Refunds took time but were processed. 
+122,English,Neutral,0,0,Registrar,Processing time varied by month. 
+123,English,Neutral,0,0,Clinic,Check-ups were short but sufficient. 
+124,English,Positive,2,2,Laboratories,Labs had updated equipment for core courses. 
+125,English,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. 
+126,English,Negative,1,1,Guidance/Counseling,Slots filled up fast during exam weeks.
+127,English,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. 
+128,English,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. 
+129,English,Neutral,0,0,Faculty,Instructions were clear when rubrics were provided. 
+130,English,Neutral,0,0,Administration,Most forms were available but required signatures across offices. 
+131,English,Neutral,0,0,Finance/Scholarships,Scholarship slots were limited but clear. 
+132,English,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. 
+133,English,Negative,1,1,Registrar,Document release took longer than the posted timeline. 
+134,English,Neutral,0,0,Library,Resources were basic but useful.
+135,English,Negative,1,1,Guidance/Counseling,Follow-up emails were easy to miss.
+136,English,Neutral,0,0,Faculty,Instructions were clear when rubrics were provided. 
+137,English,Negative,1,1,Library,Catalog search was sometimes down. 
+138,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent."
+139,English,Positive,2,2,Administration,Admin staff were responsive during deadlines.
+140,English,Positive,2,2,Library,E-resources were accessible off-campus.
+141,English,Positive,2,2,Laboratories,Safety protocols were enforced well. 
+142,English,Negative,1,1,Laboratories,Some equipment was shared among too many sections. 
+143,English,Negative,1,1,EDP,System errors from EDP caused delays. 
+144,English,Neutral,0,0,Library,Library rules were enforced fairly. 
+145,English,Positive,2,2,Clinic,Clinic was clean and well-stocked. 
+146,English,Positive,2,2,SAO,Helpful and approachable SAO staff. 
+147,English,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. 
+148,English,Neutral,0,0,Administration,Most forms were available but required signatures across offices. 
+149,English,Positive,2,2,Library,E-resources were accessible off-campus.
+150,English,Negative,1,1,SAO,Limited guidance for new organizations. 
+151,English,Positive,2,2,Library,E-resources were accessible off-campus.
+152,English,Negative,1,1,Clinic,Limited operating hours for the clinic. 
+153,English,Neutral,0,0,Laboratories,Lab time was adequate for basic competencies. 
+154,English,Positive,2,2,Library,Extended hours during finals were a big help. 
+155,English,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. 
+156,English,Negative,1,1,Guidance/Counseling,Follow-up emails were easy to miss. 
+157,English,Neutral,0,0,Finance/Scholarships,Scholarship slots were limited but clear. 
+158,English,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. 
+159,English,Neutral,0,0,Finance/Scholarships,Refunds took time but were processed. 
+160,English,Neutral,0,0,EDP,Services were standard for a school this size. 
+161,English,Positive,2,2,SAO,Quick processing of student org requirements. 
+162,English,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. 
+163,English,Negative,1,1,Library,Limited copies of required books. 
+164,English,Negative,1,1,SAO,Slow processing of event permits. 
+165,English,Negative,1,1,Finance/Scholarships,Deadlines were strict with little leeway.
+166,English,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. 
+167,English,Negative,1,1,Administration,Announcements came late and caused confusion. 
+168,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. "
+169,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+170,English,Positive,2,2,SAO,Helpful and approachable SAO staff.
+171,English,Negative,1,1,Library,Limited copies of required books. 
+172,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+173,English,Negative,1,1,Library,Limited copies of required books. 
+174,English,Positive,2,2,SAO,SAO organized student events well. 
+175,English,Neutral,0,0,Finance/Scholarships,Refunds took time but were processed. 
+176,English,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs.
+177,English,Positive,2,2,Library,E-resources were accessible off-campus. 
+178,English,Positive,2,2,Finance/Scholarships,Discounts were communicated early. 
+179,English,Positive,2,2,Faculty,Mentors encouraged research and internships.
+180,English,Positive,2,2,Library,Extended hours during finals were a big help. 
+181,English,Positive,2,2,Faculty,Professors were approachable and industry-experienced. 
+182,English,Negative,1,1,Guidance/Counseling,Some sessions felt too brief. 
+183,English,Positive,2,2,SAO,Helpful and approachable SAO staff.
+184,English,Negative,1,1,Clinic,Limited operating hours for the clinic. 
+185,English,Neutral,0,0,SAO,Interactions were straightforward. 
+186,English,Negative,1,1,Administration,Some offices were understaffed during peak periods. 
+187,English,Negative,1,1,Clinic,Small space made it crowded at times. 
+188,English,Neutral,0,0,Finance/Scholarships,Scholarship slots were limited but clear. 
+189,English,Negative,1,1,Laboratories,Some equipment was shared among too many sections. 
+190,English,Positive,2,2,Clinic,Quick response to minor health concerns. 
+191,English,Positive,2,2,EDP,System updates were timely and reduced errors. 
+192,English,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. 
+193,English,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. 
+194,English,Neutral,0,0,Administration,Most forms were available but required signatures across offices.
+195,English,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. 
+196,English,Neutral,0,0,EDP,Response times varied depending on the season. 
+197,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. "
+198,English,Negative,1,1,Library,Limited copies of required books. 
+199,English,Negative,1,1,Laboratories,Broken apparatus took time to replace.
+200,English,Negative,1,1,Clinic,Limited operating hours for the clinic. 
+201,English,Positive,2,2,Administration,Policy updates were communicated clearly. 
+202,English,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. 
+203,English,Neutral,0,0,Finance/Scholarships,Scholarship slots were limited but clear. 
+204,English,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. 
+205,English,Negative,1,1,Laboratories,Broken apparatus took time to replace. 
+206,English,Positive,2,2,Laboratories,Safety protocols were enforced well. 
+207,English,Neutral,0,0,Laboratories,Scheduling was tight but workable. 
+208,English,Negative,1,1,Guidance/Counseling,Slots filled up fast during exam weeks. 
+209,English,Negative,1,1,Finance/Scholarships,Deadlines were strict with little leeway.
+210,English,Positive,2,2,Faculty,Mentors encouraged research and internships. 
+211,English,Negative,1,1,SAO,Slow processing of event permits. 
+212,English,Negative,1,1,Administration,Announcements came late and caused confusion.
+213,English,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. 
+214,English,Positive,2,2,Guidance/Counseling,Workshops on stress management helped a lot.
+215,English,Negative,1,1,Guidance/Counseling,Follow-up emails were easy to miss. 
+216,English,Neutral,0,0,Laboratories,Lab time was adequate for basic competencies.
+217,English,Negative,1,1,Library,Catalog search was sometimes down.
+218,English,Positive,2,2,Administration,Processing time improvementd compared to previous years. 
+219,English,Negative,1,1,Clinic,Limited operating hours for the clinic. 
+220,English,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs.
+221,English,Negative,1,1,Clinic,Small space made it crowded at times. 
+222,English,Negative,1,1,Library,Limited copies of required books. 
+223,English,Positive,2,2,SAO,Quick processing of student org requirements.
+224,English,Neutral,0,0,Clinic,Location was convenient within campus. 
+225,English,Positive,2,2,Faculty,Mentors encouraged research and internships. 
+226,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+227,English,Negative,1,1,Laboratories,Some equipment was shared among too many sections.
+228,English,Positive,2,2,Finance/Scholarships,Tuition was affordable and payment plans helped. 
+229,English,Negative,1,1,Faculty,Office hours were hard to catch. 
+230,English,Positive,2,2,Faculty,Mentors encouraged research and internships.
+231,English,Positive,2,2,Registrar,Transcript requests were processed faster than expected. 
+232,English,Negative,1,1,Faculty,Office hours were hard to catch. 
+233,English,Positive,2,2,EDP,EDP staff processed requests quickly and accurately.
+234,English,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable.
+235,English,Negative,1,1,Library,Limited copies of required books.
+236,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+237,English,Neutral,0,0,Clinic,Check-ups were short but sufficient. 
+238,English,Neutral,0,0,SAO,Approvals took varying times. 
+239,English,Negative,1,1,Administration,Announcements came late and caused confusion. 
+240,English,Positive,2,2,Finance/Scholarships,Tuition was affordable and payment plans helped. 
+241,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. "
+242,English,Positive,2,2,Laboratories,Labs had updated equipment for core courses. 
+243,English,Neutral,0,0,Laboratories,Lab time was adequate for basic competencies. 
+244,English,Neutral,0,0,Clinic,Clinic service was adequate for basic needs. 
+245,English,Neutral,0,0,Guidance/Counseling,Group sessions were fine for basics. 
+246,English,Neutral,0,0,Library,Resources were basic but useful. 
+247,English,Negative,1,1,Guidance/Counseling,Follow-up emails were easy to miss. 
+248,English,Neutral,0,0,Library,"Printing services worked, with occasional delays. "
+249,English,Negative,1,1,Faculty,Office hours were hard to catch. 
+250,English,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. 
+251,English,Negative,1,1,SAO,Limited guidance for new organizations. 
+252,English,Negative,1,1,Clinic,Limited operating hours for the clinic.
+253,English,Positive,2,2,Faculty,Mentors encouraged research and internships. 
+254,English,Neutral,0,0,Clinic,Location was convenient within campus. 
+255,English,Negative,1,1,Administration,Paperwork was slow and required multiple follow-ups. 
+256,English,Positive,2,2,Library,Extended hours during finals were a big help. 
+257,English,Neutral,0,0,Registrar,Requirements were standard for most students.
+258,English,Positive,2,2,Guidance/Counseling,Clear referral process for specialized support. 
+259,English,Positive,2,2,Clinic,Clinic staff were caring and professional.
+260,English,Positive,2,2,Administration,Processing time improvementd compared to previous years. 
+261,English,Neutral,0,0,Finance/Scholarships,Fees were expected and comparable to peers. 
+262,English,Positive,2,2,Administration,Processing time improvementd compared to previous years.
+263,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. "
+264,English,Positive,2,2,SAO,Quick processing of student org requirements.
+265,English,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs.
+266,English,Negative,1,1,SAO,Slow processing of event permits. 
+267,English,Neutral,0,0,Laboratories,Lab time was adequate for basic competencies. 
+268,English,Negative,1,1,Laboratories,Broken apparatus took time to replace.
+269,English,Negative,1,1,Guidance/Counseling,Follow-up emails were easy to miss. 
+270,English,Positive,2,2,Finance/Scholarships,Discounts were communicated early.
+271,English,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. 
+272,English,Neutral,0,0,Guidance/Counseling,Services existed if you reached out.
+273,English,Negative,1,1,Laboratories,Broken apparatus took time to replace. 
+274,English,Neutral,0,0,Laboratories,Lab time was adequate for basic competencies. 
+275,English,Negative,1,1,Clinic,Small space made it crowded at times.
+276,English,Positive,2,2,SAO,Helpful and approachable SAO staff. 
+277,English,Positive,2,2,Clinic,Clinic was clean and well-stocked.
+278,English,Positive,2,2,Guidance/Counseling,Clear referral process for specialized support.
+279,English,Neutral,0,0,Faculty,Instructions were clear when rubrics were provided. 
+280,English,Positive,2,2,SAO,SAO organized student events well. 
+281,English,Neutral,0,0,SAO,SAO communication was average. 
+282,English,Negative,1,1,Library,Limited copies of required books.
+283,English,Neutral,0,0,EDP,Services were standard for a school this size.
+284,English,Neutral,0,0,Library,Resources were basic but useful. 
+285,English,Neutral,0,0,Library,"Printing services worked, with occasional delays. "
+286,English,Neutral,0,0,Registrar,Email replies were concise but short. 
+287,English,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. 
+288,English,Negative,1,1,Finance/Scholarships,Deadlines were strict with little leeway. 
+289,English,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable.
+290,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. "
+291,English,Neutral,0,0,SAO,Approvals took varying times.
+292,English,Neutral,0,0,Library,"Printing services worked, with occasional delays."
+293,English,Positive,2,2,Library,E-resources were accessible off-campus. 
+294,English,Neutral,0,0,Registrar,Requirements were standard for most students.
+295,English,Positive,2,2,Library,Extended hours during finals were a big help. 
+296,English,Negative,1,1,Library,Catalog search was sometimes down. 
+297,English,Neutral,0,0,Clinic,Check-ups were short but sufficient. 
+298,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+299,English,Negative,1,1,Faculty,Inconsistent grading rubrics across sections. 
+300,English,Negative,1,1,Finance/Scholarships,Deadlines were strict with little leeway. 
+301,English,Negative,1,1,Laboratories,Some equipment was shared among too many sections.
+302,English,Neutral,0,0,Finance/Scholarships,Scholarship slots were limited but clear.
+303,English,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent."
+304,English,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. 
+305,English,Negative,1,1,Clinic,Small space made it crowded at times. 
+306,English,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. 
+307,English,Positive,2,2,SAO,SAO organized student events well.
+308,English,Neutral,0,0,Clinic,Location was convenient within campus. 
+309,English,Negative,1,1,Faculty,Inconsistent grading rubrics across sections. 
+310,English,Positive,2,2,Administration,Processing time improvementd compared to previous years. 
+311,English,Negative,1,1,Clinic,Small space made it crowded at times. 
+312,English,Positive,2,2,Administration,Admin staff were responsive during deadlines. 
+313,Mixed,Negative,1,1,Library,Aircon and seating were not enough during peak days. / Kulang ang copies sa required books.
+314,Mixed,Negative,1,1,Clinic,Limited operating hours for the clinic. / Gamay ra ang lugar ug dali mapuno.
+315,Mixed,Negative,1,1,Faculty,Office hours were hard to catch. / Naay uban magbasa ra sa slides.
+316,Mixed,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. / Depende sa load ang availability."
+317,Mixed,Positive,2,2,Faculty,Professors were approachable and industry-experienced. / Approachable ug naay industry experience ang mga prof.
+318,Mixed,Negative,1,1,Clinic,Limited operating hours for the clinic. / Limitado ang oras sa operasyon sa clinic.
+319,Mixed,Positive,2,2,Administration,Processing time improvementd compared to previous years. / Mas paspas na ang processing kaysa sauna.
+320,Mixed,Neutral,0,0,Library,Library rules were enforced fairly. / Muli ang printing usahay.
+321,Mixed,Negative,1,1,EDP,System errors from EDP caused delays. / Usahay walay staff para sa urgent nga ayuhon.
+322,Mixed,Negative,1,1,SAO,Limited guidance for new organizations. / Hinay ang pagproseso sa permits sa events.
+323,Mixed,Positive,2,2,Library,Extended hours during finals were a big help. / Accessible ang e-resources bisan off-campus.
+324,Mixed,Positive,2,2,Finance/Scholarships,Discounts were communicated early. / Barato ang tuition ug naa'y payment plans.
+325,Mixed,Neutral,0,0,EDP,Response times varied depending on the season. / Nagkalahi ang response time depende sa season.
+326,Mixed,Positive,2,2,Laboratories,Safety protocols were enforced well. / Approachable ang lab sup.
+327,Mixed,Neutral,0,0,Finance/Scholarships,Fees were expected and comparable to peers. / Kulang ang slots sa scholarships pero klaro ang rules.
+328,Mixed,Neutral,0,0,Administration,Most forms were available but required signatures across offices. / Depende sa oras ang kahaba sa linya.
+329,Mixed,Neutral,0,0,SAO,SAO communication was average. / Average ra ang communication sa SAO.
+330,Mixed,Negative,1,1,Faculty,Office hours were hard to catch. / Naay uban magbasa ra sa slides.
+331,Mixed,Negative,1,1,SAO,Limited guidance for new organizations. / Hinay ang pagproseso sa permits sa events.
+332,Mixed,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. / Naay serbisyo basta mangita ka.
+333,Mixed,Negative,1,1,Registrar,Queueing system needs improvementment. / Lahi-lahi ug tubag depende kinsa imong pangutan-on.
+334,Mixed,Positive,2,2,SAO,Helpful and approachable SAO staff. / Approachable ug tabian ang staff sa SAO.
+335,Mixed,Negative,1,1,Faculty,Office hours were hard to catch. / Lahi-lahi ang grading rubrics.
+336,Mixed,Negative,1,1,SAO,Slow processing of event permits. / Hinay ang pagproseso sa permits sa events.
+337,Mixed,Neutral,0,0,Guidance/Counseling,Services existed if you reached out. / Okay ra ang group sessions para basics.
+338,Mixed,Positive,2,2,Faculty,Mentors encouraged research and internships. / Dali ug klaro ang feedback sa outputs.
+339,Mixed,Neutral,0,0,Faculty,Availability depended on faculty load. / Depende sa load ang availability.
+340,Mixed,Positive,2,2,Faculty,Mentors encouraged research and internships. / Approachable ug naay industry experience ang mga prof.
+341,Mixed,Positive,2,2,Library,Quiet spaces and helpful librarians made studying easy. / Accessible ang e-resources bisan off-campus.
+342,Mixed,Positive,2,2,Library,Extended hours during finals were a big help. / Nindot ang extended hours during finals.
+343,Mixed,Neutral,0,0,Laboratories,Scheduling was tight but workable. / Hugot ang sked pero kaya ra.
+344,Mixed,Negative,1,1,Registrar,Queueing system needs improvementment. / Ang queuing system kinahanglan pa og improvement.
+345,Mixed,Negative,1,1,EDP,EDP lines were too long during enrollment. / Usahay walay staff para sa urgent nga ayuhon.
+346,Mixed,Positive,2,2,Guidance/Counseling,Counselors were empathetic and available by appointment. / Nakatabang ang stress management workshops.
+347,Mixed,Neutral,0,0,Library,Library rules were enforced fairly. / Basic pero magamit ang resources.
+348,Mixed,Negative,1,1,SAO,Slow processing of event permits. / Hinay ang pagproseso sa permits sa events.
+349,Mixed,Neutral,0,0,Laboratories,Scheduling was tight but workable. / Hugot ang sked pero kaya ra.
+350,Mixed,Negative,1,1,EDP,EDP lines were too long during enrollment. / System errors sa EDP nakapahinay sa proseso.
+351,Mixed,Positive,2,2,Clinic,Clinic was clean and well-stocked. / Limpyo ug kompleto ang gamit sa clinic.
+352,Mixed,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. / Approachable ang lab sup.
+353,Mixed,Neutral,0,0,SAO,Interactions were straightforward. / Nagkalahi ang oras sa approval.
+354,Mixed,Positive,2,2,Library,E-resources were accessible off-campus. / Nindot ang extended hours during finals.
+355,Mixed,Negative,1,1,Registrar,Queueing system needs improvementment. / Molapas sa timeline ang release sa documents.
+356,Mixed,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. / Kinahanglan daan ang schedule.
+357,Mixed,Neutral,0,0,Clinic,Check-ups were short but sufficient. / Sakto ra ang serbisyo sa clinic para basics.
+358,Mixed,Positive,2,2,Administration,Policy updates were communicated clearly. / Responsive ang admin labi na duol na ang deadlines.
+359,Mixed,Negative,1,1,SAO,Limited guidance for new organizations. / Hinay ang pagproseso sa permits sa events.
+360,Mixed,Neutral,0,0,Registrar,Email replies were concise but short. / Standard ang requirements.
+361,Mixed,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. / Ang queuing system kinahanglan pa og improvement.
+362,Mixed,Neutral,0,0,Clinic,Check-ups were short but sufficient. / Mubo pero igo ra ang check-up.
+363,Mixed,Positive,2,2,Guidance/Counseling,Counselors were empathetic and available by appointment. / Empathetic ang counselors ug by appointment.
+364,Mixed,Neutral,0,0,Faculty,Availability depended on faculty load. / Mas klaro kung naay rubrics.
+365,Mixed,Positive,2,2,Administration,Admin staff were responsive during deadlines. / Klaro ang pag-announce sa mga polisiya.
+366,Mixed,Positive,2,2,Administration,Admin staff were responsive during deadlines. / Klaro ang pag-announce sa mga polisiya.
+367,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Approachable ang lab sup.
+368,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Approachable ang lab sup.
+369,Mixed,Positive,2,2,Clinic,Clinic staff were caring and professional. / Limpyo ug kompleto ang gamit sa clinic.
+370,Mixed,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. / Naay discrepancies sa billing usahay.
+371,Mixed,Negative,1,1,Registrar,Queueing system needs improvementment. / Molapas sa timeline ang release sa documents.
+372,Mixed,Neutral,0,0,Guidance/Counseling,Services existed if you reached out. / Naay serbisyo basta mangita ka.
+373,Mixed,Neutral,0,0,EDP,Response times varied depending on the season. / Nagkalahi ang response time depende sa season.
+374,Mixed,Negative,1,1,Library,Catalog search was sometimes down. / Kulang ang lingkuranan ug aircon sa peak days.
+375,Mixed,Negative,1,1,Laboratories,Some equipment was shared among too many sections. / Usahay dili consistent ang aircon sa labs.
+376,Mixed,Positive,2,2,Laboratories,Safety protocols were enforced well. / Musunod sa safety protocols.
+377,Mixed,Neutral,0,0,Library,"Printing services worked, with occasional delays. / Muli ang printing usahay."
+378,Mixed,Negative,1,1,Clinic,Small space made it crowded at times. / Gamay ra ang lugar ug dali mapuno.
+379,Mixed,Negative,1,1,Laboratories,Broken apparatus took time to replace. / Dugay mapulihan ang naguba nga apparatus.
+380,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Approachable ang lab sup.
+381,Mixed,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. / Lahi-lahi ug tubag depende kinsa imong pangutan-on.
+382,Mixed,Negative,1,1,Guidance/Counseling,Slots filled up fast during exam weeks. / Dali mapuno ang slots during exams.
+383,Mixed,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. / Approachable ang lab sup.
+384,Mixed,Neutral,0,0,Library,Library rules were enforced fairly. / Muli ang printing usahay.
+385,Mixed,Negative,1,1,Library,Aircon and seating were not enough during peak days. / Kulang ang copies sa required books.
+386,Mixed,Negative,1,1,Finance/Scholarships,Queueing for payments took too long. / Naay discrepancies sa billing usahay.
+387,Mixed,Neutral,0,0,EDP,Response times varied depending on the season. / Generally consistent ang performance sa EDP.
+388,Mixed,Neutral,0,0,Finance/Scholarships,Scholarship slots were limited but clear. / Kulang ang slots sa scholarships pero klaro ang rules.
+389,Mixed,Positive,2,2,Faculty,Mentors encouraged research and internships. / Gisuportahan ang research ug internships.
+390,Mixed,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. / Stiff kaayo ang deadlines.
+391,Mixed,Negative,1,1,Administration,Some offices were understaffed during peak periods. / Hinay ang papel ug daghang follow-up.
+392,Mixed,Neutral,0,0,Laboratories,Supplies were enough for most experiments. / Sapat ang supplies para sa kadaghanan.
+393,Mixed,Negative,1,1,Registrar,Queueing system needs improvementment. / Ang queuing system kinahanglan pa og improvement.
+394,Mixed,Negative,1,1,Laboratories,Broken apparatus took time to replace. / Daghang sections mag-share sa usa ka equipment.
+395,Mixed,Positive,2,2,Administration,Admin staff were responsive during deadlines. / Klaro ang pag-announce sa mga polisiya.
+396,Mixed,Neutral,0,0,Administration,Queues varied depending on the time of day. / Kumpleto ang forms pero daghan pirma.
+397,Mixed,Negative,1,1,Library,Catalog search was sometimes down. / Usahay down ang catalog search.
+398,Mixed,Positive,2,2,Library,"E-resources were accessible off-campus. / Hilum ug tabian ang librarians, sayon magtuon."
+399,Mixed,Positive,2,2,Guidance/Counseling,Clear referral process for specialized support. / Empathetic ang counselors ug by appointment.
+400,Mixed,Positive,2,2,Guidance/Counseling,Workshops on stress management helped a lot. / Nakatabang ang stress management workshops.
+401,Mixed,Neutral,0,0,Guidance/Counseling,Scheduling required advance planning. / Okay ra ang group sessions para basics.
+402,Mixed,Positive,2,2,EDP,EDP staff processed requests quickly and accurately. / Paspas ug sakto ang proseso sa EDP staff.
+403,Mixed,Negative,1,1,EDP,EDP lines were too long during enrollment. / System errors sa EDP nakapahinay sa proseso.
+404,Mixed,Negative,1,1,Finance/Scholarships,Deadlines were strict with little leeway. / Stiff kaayo ang deadlines.
+405,Mixed,Neutral,0,0,Library,Library rules were enforced fairly. / Basic pero magamit ang resources.
+406,Mixed,Positive,2,2,Administration,Admin staff were responsive during deadlines. / Klaro ang pag-announce sa mga polisiya.
+407,Mixed,Positive,2,2,Finance/Scholarships,Discounts were communicated early. / Suportado ug patas ang scholarship office.
+408,Mixed,Positive,2,2,Guidance/Counseling,Workshops on stress management helped a lot. / Nakatabang ang stress management workshops.
+409,Mixed,Positive,2,2,EDP,System updates were timely and reduced errors. / Paspas ug sakto ang proseso sa EDP staff.
+410,Mixed,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. / Taas ang linya sa payments.
+411,Mixed,Positive,2,2,EDP,EDP services were reliable throughout my stay. / Tukma ang updates sa system ug nakapaminus ug errors.
+412,Mixed,Neutral,0,0,Administration,"Most forms were available but required signatures across offices. / Okay ra ang proseso, dili paspas, dili pud hinay kaayo."
+413,Mixed,Negative,1,1,Library,Catalog search was sometimes down. / Kulang ang lingkuranan ug aircon sa peak days.
+414,Mixed,Positive,2,2,SAO,Quick processing of student org requirements. / Paspas ang proseso sa requirements sa orgs.
+415,Mixed,Neutral,0,0,EDP,Services were standard for a school this size. / Standard ra ang serbisyo para sa ingani nga school.
+416,Mixed,Negative,1,1,Administration,Announcements came late and caused confusion. / Kulang ang staff during peak period.
+417,Mixed,Positive,2,2,Registrar,Staff guided me through clearance with patience. / Mas paspas kaysa gipaabot ang transcript request.
+418,Mixed,Positive,2,2,Faculty,Professors were approachable and industry-experienced. / Gisuportahan ang research ug internships.
+419,Mixed,Negative,1,1,Finance/Scholarships,Billing statements had occasional discrepancies. / Naay discrepancies sa billing usahay.
+420,Mixed,Neutral,0,0,Registrar,Processing time varied by month. / Standard ang requirements.
+421,Mixed,Positive,2,2,Faculty,Professors were approachable and industry-experienced. / Gisuportahan ang research ug internships.
+422,Mixed,Neutral,0,0,Library,"Printing services worked, with occasional delays. / Sakto ug patas ang pag-implementar sa rules."
+423,Mixed,Positive,2,2,SAO,SAO organized student events well. / Maayo ang pag-organize sa SAO sa events.
+424,Mixed,Positive,2,2,Library,Extended hours during finals were a big help. / Nindot ang extended hours during finals.
+425,Mixed,Neutral,0,0,SAO,SAO communication was average. / Average ra ang communication sa SAO.
+426,Mixed,Neutral,0,0,SAO,SAO communication was average. / Diretso ra ang interaction.
+427,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Approachable ang lab sup.
+428,Mixed,Negative,1,1,Faculty,Office hours were hard to catch. / Lisod makit-an ang office hours.
+429,Mixed,Negative,1,1,SAO,Limited guidance for new organizations. / Usahay sirado ang SAO bisan naa sa schedule.
+430,Mixed,Neutral,0,0,EDP,Response times varied depending on the season. / Nagkalahi ang response time depende sa season.
+431,Mixed,Negative,1,1,Guidance/Counseling,Slots filled up fast during exam weeks. / Sayun ma-miss ang follow-up emails.
+432,Mixed,Neutral,0,0,Library,Resources were basic but useful. / Muli ang printing usahay.
+433,Mixed,Positive,2,2,Library,"Extended hours during finals were a big help. / Hilum ug tabian ang librarians, sayon magtuon."
+434,Mixed,Negative,1,1,Laboratories,Broken apparatus took time to replace. / Usahay dili consistent ang aircon sa labs.
+435,Mixed,Negative,1,1,Library,Catalog search was sometimes down. / Usahay down ang catalog search.
+436,Mixed,Positive,2,2,Guidance/Counseling,Clear referral process for specialized support. / Empathetic ang counselors ug by appointment.
+437,Mixed,Negative,1,1,Library,Aircon and seating were not enough during peak days. / Usahay down ang catalog search.
+438,Mixed,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. / Kulang ug guidance para sa bag-ong orgs.
+439,Mixed,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs. / Daghang sections mag-share sa usa ka equipment.
+440,Mixed,Neutral,0,0,EDP,Response times varied depending on the season. / Standard ra ang serbisyo para sa ingani nga school.
+441,Mixed,Negative,1,1,Faculty,Office hours were hard to catch. / Naay uban magbasa ra sa slides.
+442,Mixed,Negative,1,1,Laboratories,Some equipment was shared among too many sections. / Usahay dili consistent ang aircon sa labs.
+443,Mixed,Neutral,0,0,Library,Library rules were enforced fairly. / Muli ang printing usahay.
+444,Mixed,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. / Ang queuing system kinahanglan pa og improvement.
+445,Mixed,Positive,2,2,SAO,SAO organized student events well. / Paspas ang proseso sa requirements sa orgs.
+446,Mixed,Positive,2,2,Administration,Admin staff were responsive during deadlines. / Responsive ang admin labi na duol na ang deadlines.
+447,Mixed,Positive,2,2,EDP,EDP staff processed requests quickly and accurately. / Kasagaran reliable ang serbisyo sa EDP.
+448,Mixed,Positive,2,2,Faculty,Professors were approachable and industry-experienced. / Gisuportahan ang research ug internships.
+449,Mixed,Neutral,0,0,Finance/Scholarships,Scholarship slots were limited but clear. / Ma-process ra ang refunds bisag hinay.
+450,Mixed,Neutral,0,0,Clinic,Location was convenient within campus. / Mubo pero igo ra ang check-up.
+451,Mixed,Negative,1,1,EDP,EDP lines were too long during enrollment. / Usahay walay staff para sa urgent nga ayuhon.
+452,Mixed,Positive,2,2,Administration,Admin staff were responsive during deadlines. / Mas paspas na ang processing kaysa sauna.
+453,Mixed,Positive,2,2,Library,E-resources were accessible off-campus. / Nindot ang extended hours during finals.
+454,Mixed,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. / Usahay walay staff para sa urgent nga ayuhon.
+455,Mixed,Negative,1,1,Finance/Scholarships,Queueing for payments took too long. / Naay discrepancies sa billing usahay.
+456,Mixed,Negative,1,1,Clinic,Small space made it crowded at times. / Limitado ang oras sa operasyon sa clinic.
+457,Mixed,Negative,1,1,Administration,Paperwork was slow and required multiple follow-ups. / Hinay ang papel ug daghang follow-up.
+458,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Musunod sa safety protocols.
+459,Mixed,Neutral,0,0,Faculty,Availability depended on faculty load. / Nagkalahi ang quality pero kasagaran competent.
+460,Mixed,Neutral,0,0,Faculty,Instructions were clear when rubrics were provided. / Nagkalahi ang quality pero kasagaran competent.
+461,Mixed,Neutral,0,0,Clinic,Clinic service was adequate for basic needs. / Convenient ang location sulod sa campus.
+462,Mixed,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs. / Daghang sections mag-share sa usa ka equipment.
+463,Mixed,Negative,1,1,Clinic,Small space made it crowded at times. / Walay ubang tambal available.
+464,Mixed,Positive,2,2,Finance/Scholarships,Tuition was affordable and payment plans helped. / Barato ang tuition ug naa'y payment plans.
+465,Mixed,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs. / Dugay mapulihan ang naguba nga apparatus.
+466,Mixed,Neutral,0,0,Guidance/Counseling,Group sessions were fine for basics. / Kinahanglan daan ang schedule.
+467,Mixed,Negative,1,1,SAO,Limited guidance for new organizations. / Hinay ang pagproseso sa permits sa events.
+468,Mixed,Negative,1,1,SAO,Limited guidance for new organizations. / Hinay ang pagproseso sa permits sa events.
+469,Mixed,Neutral,0,0,SAO,SAO communication was average. / Diretso ra ang interaction.
+470,Mixed,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. / Musunod sa safety protocols.
+471,Mixed,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. / Lahi-lahi ug tubag depende kinsa imong pangutan-on.
+472,Mixed,Positive,2,2,Finance/Scholarships,Discounts were communicated early. / Barato ang tuition ug naa'y payment plans.
+473,Mixed,Neutral,0,0,Registrar,Processing time varied by month. / Mubo ra kaayo ang email replies.
+474,Mixed,Negative,1,1,Guidance/Counseling,Slots filled up fast during exam weeks. / Sayun ma-miss ang follow-up emails.
+475,Mixed,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. / Approachable ug naay industry experience ang mga prof.
+476,Mixed,Neutral,0,0,Registrar,Email replies were concise but short. / Mubo ra kaayo ang email replies.
+477,Mixed,Neutral,0,0,Clinic,Clinic service was adequate for basic needs. / Sakto ra ang serbisyo sa clinic para basics.
+478,Mixed,Negative,1,1,EDP,System errors from EDP caused delays. / Taas ang linya sa EDP during enrollment.
+479,Mixed,Negative,1,1,Guidance/Counseling,Follow-up emails were easy to miss. / Mubo ra ang session usahay.
+480,Mixed,Positive,2,2,Faculty,Feedback on outputs was timely and constructive. / Dali ug klaro ang feedback sa outputs.
+481,Mixed,Neutral,0,0,Administration,Queues varied depending on the time of day. / Kumpleto ang forms pero daghan pirma.
+482,Mixed,Neutral,0,0,Faculty,"Teaching quality varied, but most were competent. / Mas klaro kung naay rubrics."
+483,Mixed,Negative,1,1,SAO,SAO office was sometimes closed during posted hours. / Hinay ang pagproseso sa permits sa events.
+484,Mixed,Positive,2,2,Clinic,Clinic was clean and well-stocked. / Limpyo ug kompleto ang gamit sa clinic.
+485,Mixed,Positive,2,2,Registrar,"Clear checklist reduced back-and-forth. / Klaro ang checklist, less balik-balik."
+486,Mixed,Positive,2,2,Finance/Scholarships,Tuition was affordable and payment plans helped. / Suportado ug patas ang scholarship office.
+487,Mixed,Negative,1,1,SAO,Slow processing of event permits. / Usahay sirado ang SAO bisan naa sa schedule.
+488,Mixed,Neutral,0,0,Faculty,Instructions were clear when rubrics were provided. / Mas klaro kung naay rubrics.
+489,Mixed,Neutral,0,0,EDP,Services were standard for a school this size. / Nagkalahi ang response time depende sa season.
+490,Mixed,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. / Taas ang linya sa EDP during enrollment.
+491,Mixed,Neutral,0,0,SAO,Interactions were straightforward. / Average ra ang communication sa SAO.
+492,Mixed,Neutral,0,0,SAO,Interactions were straightforward. / Average ra ang communication sa SAO.
+493,Mixed,Positive,2,2,Guidance/Counseling,Clear referral process for specialized support. / Klaro ang referral process.
+494,Mixed,Negative,1,1,Finance/Scholarships,Queueing for payments took too long. / Taas ang linya sa payments.
+495,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Approachable ang lab sup.
+496,Mixed,Negative,1,1,Registrar,Document release took longer than the posted timeline. / Molapas sa timeline ang release sa documents.
+497,Mixed,Positive,2,2,SAO,Helpful and approachable SAO staff. / Paspas ang proseso sa requirements sa orgs.
+498,Mixed,Neutral,0,0,EDP,Response times varied depending on the season. / Nagkalahi ang response time depende sa season.
+499,Mixed,Negative,1,1,Administration,Some offices were understaffed during peak periods. / Ulahi muabot ang announcements usahay.
+500,Mixed,Positive,2,2,Guidance/Counseling,Workshops on stress management helped a lot. / Klaro ang referral process.
+501,Mixed,Negative,1,1,Faculty,Inconsistent grading rubrics across sections. / Lisod makit-an ang office hours.
+502,Mixed,Positive,2,2,Clinic,Clinic was clean and well-stocked. / Limpyo ug kompleto ang gamit sa clinic.
+503,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Updated ang equipment para sa core courses.
+504,Mixed,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. / Ang queuing system kinahanglan pa og improvement.
+505,Mixed,Positive,2,2,Clinic,Clinic staff were caring and professional. / Limpyo ug kompleto ang gamit sa clinic.
+506,Mixed,Negative,1,1,Finance/Scholarships,Deadlines were strict with little leeway. / Stiff kaayo ang deadlines.
+507,Mixed,Negative,1,1,Faculty,Inconsistent grading rubrics across sections. / Lisod makit-an ang office hours.
+508,Mixed,Negative,1,1,EDP,EDP lines were too long during enrollment. / System errors sa EDP nakapahinay sa proseso.
+509,Mixed,Negative,1,1,Clinic,Small space made it crowded at times. / Limitado ang oras sa operasyon sa clinic.
+510,Mixed,Positive,2,2,Library,"Quiet spaces and helpful librarians made studying easy. / Hilum ug tabian ang librarians, sayon magtuon."
+511,Mixed,Positive,2,2,SAO,Quick processing of student org requirements. / Maayo ang pag-organize sa SAO sa events.
+512,Mixed,Neutral,0,0,Administration,"Processes were standard; not fast, not too slow. / Okay ra ang proseso, dili paspas, dili pud hinay kaayo."
+513,Mixed,Positive,2,2,Clinic,Quick response to minor health concerns. / Maayo ug professional ang clinic staff.
+514,Mixed,Neutral,0,0,SAO,SAO communication was average. / Nagkalahi ang oras sa approval.
+515,Mixed,Negative,1,1,Library,Limited copies of required books. / Kulang ang lingkuranan ug aircon sa peak days.
+516,Mixed,Neutral,0,0,Faculty,Instructions were clear when rubrics were provided. / Nagkalahi ang quality pero kasagaran competent.
+517,Mixed,Neutral,0,0,Faculty,Instructions were clear when rubrics were provided. / Depende sa load ang availability.
+518,Mixed,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs. / Usahay dili consistent ang aircon sa labs.
+519,Mixed,Neutral,0,0,Guidance/Counseling,Group sessions were fine for basics. / Okay ra ang group sessions para basics.
+520,Mixed,Negative,1,1,EDP,Staff were sometimes unavailable for urgent fixes. / Usahay walay staff para sa urgent nga ayuhon.
+521,Mixed,Positive,2,2,Laboratories,lab sup were approachable and knowledgeable. / Updated ang equipment para sa core courses.
+522,Mixed,Negative,1,1,EDP,EDP lines were too long during enrollment. / Usahay walay staff para sa urgent nga ayuhon.
+523,Mixed,Negative,1,1,Clinic,Limited operating hours for the clinic. / Walay ubang tambal available.
+524,Mixed,Positive,2,2,EDP,EDP services were reliable throughout my stay. / Tukma ang updates sa system ug nakapaminus ug errors.
+525,Mixed,Neutral,0,0,Registrar,Email replies were concise but short. / Standard ang requirements.
+526,Mixed,Positive,2,2,Administration,Policy updates were communicated clearly. / Mas paspas na ang processing kaysa sauna.
+527,Mixed,Positive,2,2,Finance/Scholarships,Scholarship office was supportive and fair. / Sayu gi-announce ang discounts.
+528,Mixed,Negative,1,1,Administration,Announcements came late and caused confusion. / Kulang ang staff during peak period.
+529,Mixed,Positive,2,2,Laboratories,Labs had updated equipment for core courses. / Updated ang equipment para sa core courses.
+530,Mixed,Negative,1,1,Laboratories,Aircon was inconsistent in certain labs. / Usahay dili consistent ang aircon sa labs.
+531,Mixed,Positive,2,2,EDP,EDP staff processed requests quickly and accurately. / Tukma ang updates sa system ug nakapaminus ug errors.
+532,Mixed,Negative,1,1,Registrar,Inconsistent requirements depending on who you ask. / Lahi-lahi ug tubag depende kinsa imong pangutan-on.
+533,Mixed,Positive,2,2,Guidance/Counseling,Workshops on stress management helped a lot. / Klaro ang referral process.
+534,Mixed,Negative,1,1,SAO,Limited guidance for new organizations. / Hinay ang pagproseso sa permits sa events.
+535,Mixed,Neutral,0,0,Faculty,Availability depended on faculty load. / Nagkalahi ang quality pero kasagaran competent.
+536,Mixed,Negative,1,1,Registrar,Document release took longer than the posted timeline. / Ang queuing system kinahanglan pa og improvement.
+537,Mixed,Positive,2,2,Registrar,Transcript requests were processed faster than expected. / Mapasensya ang staff sa clearance process.
+538,Bisaya,Negative,1,1,SAO,Kulang ug guidance para sa bag-ong orgs. 
+539,Bisaya,Positive,2,2,Administration,Mas paspas na ang processing kaysa sauna. 
+540,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books. 
+541,Bisaya,Neutral,0,0,SAO,Diretso ra ang interaction. 
+542,Bisaya,Positive,2,2,Laboratories,Approachable ang lab sup. 
+543,Bisaya,Positive,2,2,Finance/Scholarships,Barato ang tuition ug naa'y payment plans. 
+544,Bisaya,Negative,1,1,Laboratories,Usahay dili consistent ang aircon sa labs. 
+545,Bisaya,Negative,1,1,Finance/Scholarships,Naay discrepancies sa billing usahay. 
+546,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics. 
+547,Bisaya,Positive,2,2,Laboratories,Musunod sa safety protocols. 
+548,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma. 
+549,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+550,Bisaya,Positive,2,2,Finance/Scholarships,Suportado ug patas ang scholarship office. 
+551,Bisaya,Positive,2,2,Clinic,Limpyo ug kompleto ang gamit sa clinic. 
+552,Bisaya,Negative,1,1,Registrar,Lahi-lahi ug tubag depende kinsa imong pangutan-on.
+553,Bisaya,Neutral,0,0,Library,Muli ang printing usahay.
+554,Bisaya,Negative,1,1,Guidance/Counseling,Mubo ra ang session usahay. 
+555,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment.
+556,Bisaya,Negative,1,1,Registrar,Lahi-lahi ug tubag depende kinsa imong pangutan-on. 
+557,Bisaya,Neutral,0,0,SAO,Nagkalahi ang oras sa approval. 
+558,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts. 
+559,Bisaya,Positive,2,2,Guidance/Counseling,Nakatabang ang stress management workshops. 
+560,Bisaya,Negative,1,1,Administration,Ulahi muabot ang announcements usahay. 
+561,Bisaya,Negative,1,1,Guidance/Counseling,Mubo ra ang session usahay.
+562,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+563,Bisaya,Negative,1,1,Laboratories,Usahay dili consistent ang aircon sa labs. 
+564,Bisaya,Negative,1,1,Laboratories,Dugay mapulihan ang naguba nga apparatus. 
+565,Bisaya,Positive,2,2,Faculty,Gisuportahan ang research ug internships.
+566,Bisaya,Positive,2,2,SAO,Maayo ang pag-organize sa SAO sa events.
+567,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+568,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma. 
+569,Bisaya,Positive,2,2,Clinic,Limpyo ug kompleto ang gamit sa clinic. 
+570,Bisaya,Negative,1,1,Guidance/Counseling,Mubo ra ang session usahay. 
+571,Bisaya,Neutral,0,0,Finance/Scholarships,Ma-process ra ang refunds bisag hinay. 
+572,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma. 
+573,Bisaya,Neutral,0,0,Guidance/Counseling,Naay serbisyo basta mangita ka. 
+574,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso. 
+575,Bisaya,Positive,2,2,EDP,Kasagaran reliable ang serbisyo sa EDP. 
+576,Bisaya,Neutral,0,0,SAO,Nagkalahi ang oras sa approval. 
+577,Bisaya,Negative,1,1,Clinic,Walay ubang tambal available. 
+578,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics.
+579,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails. 
+580,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+581,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+582,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+583,Bisaya,Positive,2,2,Finance/Scholarships,Barato ang tuition ug naa'y payment plans. 
+584,Bisaya,Negative,1,1,EDP,Usahay walay staff para sa urgent nga ayuhon. 
+585,Bisaya,Negative,1,1,Registrar,Lahi-lahi ug tubag depende kinsa imong pangutan-on. 
+586,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics.
+587,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books.
+588,Bisaya,Negative,1,1,Finance/Scholarships,Naay discrepancies sa billing usahay. 
+589,Bisaya,Negative,1,1,EDP,Usahay walay staff para sa urgent nga ayuhon. 
+590,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books. 
+591,Bisaya,Negative,1,1,EDP,Usahay walay staff para sa urgent nga ayuhon. 
+592,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books.
+593,Bisaya,Neutral,0,0,Guidance/Counseling,Naay serbisyo basta mangita ka. 
+594,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts. 
+595,Bisaya,Positive,2,2,Registrar,"Klaro ang checklist, less balik-balik. "
+596,Bisaya,Negative,1,1,Finance/Scholarships,Taas ang linya sa payments. 
+597,Bisaya,Positive,2,2,Finance/Scholarships,Barato ang tuition ug naa'y payment plans. 
+598,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics.
+599,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+600,Bisaya,Negative,1,1,Finance/Scholarships,Taas ang linya sa payments. 
+601,Bisaya,Positive,2,2,Administration,Mas paspas na ang processing kaysa sauna.
+602,Bisaya,Negative,1,1,Guidance/Counseling,Mubo ra ang session usahay. 
+603,Bisaya,Negative,1,1,SAO,Kulang ug guidance para sa bag-ong orgs. 
+604,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement. 
+605,Bisaya,Negative,1,1,EDP,Taas ang linya sa EDP during enrollment. 
+606,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+607,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines.
+608,Bisaya,Negative,1,1,Faculty,Lisod makit-an ang office hours. 
+609,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+610,Bisaya,Neutral,0,0,Administration,"Okay ra ang proseso, dili paspas, dili pud hinay kaayo."
+611,Bisaya,Negative,1,1,Administration,Kulang ang staff during peak period. 
+612,Bisaya,Positive,2,2,Clinic,Maayo ug professional ang clinic staff. 
+613,Bisaya,Positive,2,2,Administration,Klaro ang pag-announce sa mga polisiya. 
+614,Bisaya,Positive,2,2,Library,Nindot ang extended hours during finals. 
+615,Bisaya,Negative,1,1,SAO,Usahay sirado ang SAO bisan naa sa schedule. 
+616,Bisaya,Negative,1,1,EDP,Usahay walay staff para sa urgent nga ayuhon. 
+617,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month. 
+618,Bisaya,Positive,2,2,Guidance/Counseling,Klaro ang referral process. 
+619,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails.
+620,Bisaya,Neutral,0,0,SAO,Diretso ra ang interaction. 
+621,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents. 
+622,Bisaya,Positive,2,2,Registrar,Mas paspas kaysa gipaabot ang transcript request. 
+623,Bisaya,Neutral,0,0,Administration,"Okay ra ang proseso, dili paspas, dili pud hinay kaayo. "
+624,Bisaya,Neutral,0,0,Guidance/Counseling,Kinahanglan daan ang schedule.
+625,Bisaya,Neutral,0,0,Laboratories,Hugot ang sked pero kaya ra. 
+626,Bisaya,Positive,2,2,EDP,Kasagaran reliable ang serbisyo sa EDP. 
+627,Bisaya,Positive,2,2,Library,"Hilum ug tabian ang librarians, sayon magtuon. "
+628,Bisaya,Neutral,0,0,Library,Sakto ug patas ang pag-implementar sa rules.
+629,Bisaya,Negative,1,1,Laboratories,Usahay dili consistent ang aircon sa labs. 
+630,Bisaya,Negative,1,1,Faculty,Naay uban magbasa ra sa slides. 
+631,Bisaya,Negative,1,1,Laboratories,Daghang sections mag-share sa usa ka equipment. 
+632,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+633,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts.
+634,Bisaya,Negative,1,1,Laboratories,Dugay mapulihan ang naguba nga apparatus.
+635,Bisaya,Negative,1,1,Faculty,Lahi-lahi ang grading rubrics. 
+636,Bisaya,Neutral,0,0,Laboratories,Hugot ang sked pero kaya ra. 
+637,Bisaya,Neutral,0,0,EDP,Generally consistent ang performance sa EDP. 
+638,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment.
+639,Bisaya,Positive,2,2,Clinic,Limpyo ug kompleto ang gamit sa clinic. 
+640,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso. 
+641,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso. 
+642,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month.
+643,Bisaya,Neutral,0,0,EDP,Generally consistent ang performance sa EDP.
+644,Bisaya,Neutral,0,0,SAO,Diretso ra ang interaction. 
+645,Bisaya,Positive,2,2,Guidance/Counseling,Klaro ang referral process. 
+646,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+647,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+648,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso.
+649,Bisaya,Positive,2,2,Registrar,"Klaro ang checklist, less balik-balik. "
+650,Bisaya,Positive,2,2,SAO,Paspas ang proseso sa requirements sa orgs. 
+651,Bisaya,Neutral,0,0,EDP,Standard ra ang serbisyo para sa ingani nga school. 
+652,Bisaya,Neutral,0,0,Library,Basic pero magamit ang resources.
+653,Bisaya,Positive,2,2,Registrar,Mapasensya ang staff sa clearance process. 
+654,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma.
+655,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+656,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month. 
+657,Bisaya,Negative,1,1,Library,Kulang ang lingkuranan ug aircon sa peak days. 
+658,Bisaya,Neutral,0,0,Clinic,Convenient ang location sulod sa campus. 
+659,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics.
+660,Bisaya,Negative,1,1,Administration,Ulahi muabot ang announcements usahay.
+661,Bisaya,Neutral,0,0,Finance/Scholarships,Kulang ang slots sa scholarships pero klaro ang rules. 
+662,Bisaya,Positive,2,2,Finance/Scholarships,Barato ang tuition ug naa'y payment plans. 
+663,Bisaya,Neutral,0,0,Faculty,Nagkalahi ang quality pero kasagaran competent. 
+664,Bisaya,Neutral,0,0,Administration,Depende sa oras ang kahaba sa linya. 
+665,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books. 
+666,Bisaya,Positive,2,2,Library,"Hilum ug tabian ang librarians, sayon magtuon. "
+667,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+668,Bisaya,Positive,2,2,Registrar,Mapasensya ang staff sa clearance process. 
+669,Bisaya,Positive,2,2,EDP,Paspas ug sakto ang proseso sa EDP staff.
+670,Bisaya,Negative,1,1,EDP,Taas ang linya sa EDP during enrollment. 
+671,Bisaya,Neutral,0,0,Laboratories,Sapat ang supplies para sa kadaghanan.
+672,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics. 
+673,Bisaya,Neutral,0,0,SAO,Nagkalahi ang oras sa approval.
+674,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month. 
+675,Bisaya,Neutral,0,0,Library,Muli ang printing usahay. 
+676,Bisaya,Positive,2,2,EDP,Kasagaran reliable ang serbisyo sa EDP. 
+677,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+678,Bisaya,Negative,1,1,Faculty,Lisod makit-an ang office hours.
+679,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents. 
+680,Bisaya,Positive,2,2,Library,Accessible ang e-resources bisan off-campus. 
+681,Bisaya,Positive,2,2,EDP,Paspas ug sakto ang proseso sa EDP staff.
+682,Bisaya,Neutral,0,0,Clinic,Sakto ra ang serbisyo sa clinic para basics. 
+683,Bisaya,Neutral,0,0,Registrar,Standard ang requirements. 
+684,Bisaya,Positive,2,2,Laboratories,Updated ang equipment para sa core courses.
+685,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails. 
+686,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month. 
+687,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno. 
+688,Bisaya,Neutral,0,0,Finance/Scholarships,"Expected ra ang fees, pareho sa uban."
+689,Bisaya,Positive,2,2,Clinic,Paspas ang pagresponde sa minor nga sakit. 
+690,Bisaya,Neutral,0,0,Finance/Scholarships,Kulang ang slots sa scholarships pero klaro ang rules. 
+691,Bisaya,Neutral,0,0,Laboratories,Sapat ang supplies para sa kadaghanan. 
+692,Bisaya,Negative,1,1,Library,Usahay down ang catalog search. 
+693,Bisaya,Negative,1,1,Finance/Scholarships,Taas ang linya sa payments. 
+694,Bisaya,Neutral,0,0,EDP,Nagkalahi ang response time depende sa season. 
+695,Bisaya,Positive,2,2,Laboratories,Updated ang equipment para sa core courses. 
+696,Bisaya,Neutral,0,0,Library,Muli ang printing usahay.
+697,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics. 
+698,Bisaya,Positive,2,2,SAO,Maayo ang pag-organize sa SAO sa events.
+699,Bisaya,Positive,2,2,Guidance/Counseling,Nakatabang ang stress management workshops. 
+700,Bisaya,Negative,1,1,EDP,Taas ang linya sa EDP during enrollment. 
+701,Bisaya,Negative,1,1,SAO,Usahay sirado ang SAO bisan naa sa schedule. 
+702,Bisaya,Positive,2,2,Laboratories,Approachable ang lab sup. 
+703,Bisaya,Negative,1,1,Guidance/Counseling,Mubo ra ang session usahay.
+704,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents. 
+705,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso. 
+706,Bisaya,Neutral,0,0,SAO,Nagkalahi ang oras sa approval.
+707,Bisaya,Positive,2,2,Library,"Hilum ug tabian ang librarians, sayon magtuon. "
+708,Bisaya,Positive,2,2,SAO,Paspas ang proseso sa requirements sa orgs. 
+709,Bisaya,Positive,2,2,Registrar,"Klaro ang checklist, less balik-balik. "
+710,Bisaya,Negative,1,1,Library,Kulang ang lingkuranan ug aircon sa peak days. 
+711,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails.
+712,Bisaya,Positive,2,2,SAO,Paspas ang proseso sa requirements sa orgs.
+713,Bisaya,Neutral,0,0,Guidance/Counseling,Kinahanglan daan ang schedule.
+714,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts.
+715,Bisaya,Neutral,0,0,Finance/Scholarships,Kulang ang slots sa scholarships pero klaro ang rules. 
+716,Bisaya,Neutral,0,0,Guidance/Counseling,Naay serbisyo basta mangita ka. 
+717,Bisaya,Neutral,0,0,Finance/Scholarships,Kulang ang slots sa scholarships pero klaro ang rules. 
+718,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement. 
+719,Bisaya,Negative,1,1,Administration,Hinay ang papel ug daghang follow-up. 
+720,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics.
+721,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+722,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books.
+723,Bisaya,Positive,2,2,EDP,Paspas ug sakto ang proseso sa EDP staff. 
+724,Bisaya,Negative,1,1,EDP,Usahay walay staff para sa urgent nga ayuhon.
+725,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month. 
+726,Bisaya,Negative,1,1,EDP,Usahay walay staff para sa urgent nga ayuhon.
+727,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books. 
+728,Bisaya,Positive,2,2,EDP,Tukma ang updates sa system ug nakapaminus ug errors. 
+729,Bisaya,Positive,2,2,Clinic,Maayo ug professional ang clinic staff. 
+730,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement. 
+731,Bisaya,Neutral,0,0,Guidance/Counseling,Naay serbisyo basta mangita ka. 
+732,Bisaya,Neutral,0,0,Faculty,Mas klaro kung naay rubrics. 
+733,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts.
+734,Bisaya,Neutral,0,0,Faculty,Depende sa load ang availability. 
+735,Bisaya,Positive,2,2,Guidance/Counseling,Klaro ang referral process. 
+736,Bisaya,Negative,1,1,Administration,Kulang ang staff during peak period.
+737,Bisaya,Neutral,0,0,Laboratories,Hugot ang sked pero kaya ra.
+738,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics. 
+739,Bisaya,Neutral,0,0,Library,Basic pero magamit ang resources. 
+740,Bisaya,Neutral,0,0,Faculty,Depende sa load ang availability. 
+741,Bisaya,Positive,2,2,Registrar,Mas paspas kaysa gipaabot ang transcript request. 
+742,Bisaya,Negative,1,1,Guidance/Counseling,Dali mapuno ang slots during exams.
+743,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents. 
+744,Bisaya,Neutral,0,0,Library,Sakto ug patas ang pag-implementar sa rules. 
+745,Bisaya,Neutral,0,0,EDP,Generally consistent ang performance sa EDP. 
+746,Bisaya,Negative,1,1,EDP,Taas ang linya sa EDP during enrollment. 
+747,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno.
+748,Bisaya,Negative,1,1,Administration,Ulahi muabot ang announcements usahay. 
+749,Bisaya,Neutral,0,0,EDP,Generally consistent ang performance sa EDP.
+750,Bisaya,Positive,2,2,Finance/Scholarships,Barato ang tuition ug naa'y payment plans. 
+751,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails. 
+752,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+753,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents. 
+754,Bisaya,Neutral,0,0,Guidance/Counseling,Kinahanglan daan ang schedule.
+755,Bisaya,Negative,1,1,Finance/Scholarships,Taas ang linya sa payments. 
+756,Bisaya,Positive,2,2,Administration,Mas paspas na ang processing kaysa sauna. 
+757,Bisaya,Negative,1,1,Administration,Hinay ang papel ug daghang follow-up. 
+758,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents. 
+759,Bisaya,Neutral,0,0,Finance/Scholarships,"Expected ra ang fees, pareho sa uban. "
+760,Bisaya,Positive,2,2,Faculty,Dali ug klaro ang feedback sa outputs. 
+761,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+762,Bisaya,Positive,2,2,SAO,Approachable ug tabian ang staff sa SAO. 
+763,Bisaya,Negative,1,1,Guidance/Counseling,Mubo ra ang session usahay. 
+764,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement. 
+765,Bisaya,Neutral,0,0,Finance/Scholarships,Ma-process ra ang refunds bisag hinay.
+766,Bisaya,Neutral,0,0,EDP,Standard ra ang serbisyo para sa ingani nga school. 
+767,Bisaya,Negative,1,1,Administration,Kulang ang staff during peak period. 
+768,Bisaya,Neutral,0,0,Finance/Scholarships,Kulang ang slots sa scholarships pero klaro ang rules. 
+769,Bisaya,Negative,1,1,Guidance/Counseling,Dali mapuno ang slots during exams. 
+770,Bisaya,Neutral,0,0,Registrar,Mubo ra kaayo ang email replies. 
+771,Bisaya,Positive,2,2,Library,Nindot ang extended hours during finals.
+772,Bisaya,Neutral,0,0,SAO,Average ra ang communication sa SAO.
+773,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement.
+774,Bisaya,Positive,2,2,Registrar,"Klaro ang checklist, less balik-balik. "
+775,Bisaya,Neutral,0,0,SAO,Average ra ang communication sa SAO. 
+776,Bisaya,Negative,1,1,Faculty,Naay uban magbasa ra sa slides. 
+777,Bisaya,Neutral,0,0,Library,Basic pero magamit ang resources. 
+778,Bisaya,Neutral,0,0,Finance/Scholarships,Kulang ang slots sa scholarships pero klaro ang rules. 
+779,Bisaya,Neutral,0,0,EDP,Standard ra ang serbisyo para sa ingani nga school. 
+780,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics. 
+781,Bisaya,Positive,2,2,Finance/Scholarships,Suportado ug patas ang scholarship office. 
+782,Bisaya,Neutral,0,0,Library,Sakto ug patas ang pag-implementar sa rules. 
+783,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails.
+784,Bisaya,Positive,2,2,Laboratories,Approachable ang lab sup. 
+785,Bisaya,Negative,1,1,Administration,Kulang ang staff during peak period. 
+786,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement.
+787,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts. 
+788,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents. 
+789,Bisaya,Neutral,0,0,EDP,Standard ra ang serbisyo para sa ingani nga school.
+790,Bisaya,Neutral,0,0,Clinic,Sakto ra ang serbisyo sa clinic para basics. 
+791,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement. 
+792,Bisaya,Positive,2,2,Clinic,Paspas ang pagresponde sa minor nga sakit.
+793,Bisaya,Positive,2,2,Administration,Mas paspas na ang processing kaysa sauna. 
+794,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma.
+795,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment. 
+796,Bisaya,Negative,1,1,Finance/Scholarships,Naay discrepancies sa billing usahay. 
+797,Bisaya,Negative,1,1,SAO,Hinay ang pagproseso sa permits sa events. 
+798,Bisaya,Neutral,0,0,Guidance/Counseling,Kinahanglan daan ang schedule. 
+799,Bisaya,Neutral,0,0,Clinic,Sakto ra ang serbisyo sa clinic para basics. 
+800,Bisaya,Positive,2,2,Registrar,"Klaro ang checklist, less balik-balik. "
+801,Bisaya,Positive,2,2,Finance/Scholarships,Suportado ug patas ang scholarship office. 
+802,Bisaya,Positive,2,2,Administration,Mas paspas na ang processing kaysa sauna.
+803,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+804,Bisaya,Neutral,0,0,Administration,Depende sa oras ang kahaba sa linya. 
+805,Bisaya,Neutral,0,0,EDP,Nagkalahi ang response time depende sa season. 
+806,Bisaya,Neutral,0,0,Library,Basic pero magamit ang resources.
+807,Bisaya,Positive,2,2,EDP,Paspas ug sakto ang proseso sa EDP staff. 
+808,Bisaya,Negative,1,1,Administration,Kulang ang staff during peak period. 
+809,Bisaya,Negative,1,1,EDP,Taas ang linya sa EDP during enrollment. 
+810,Bisaya,Positive,2,2,Finance/Scholarships,Suportado ug patas ang scholarship office. 
+811,Bisaya,Neutral,0,0,Laboratories,Sapat ang supplies para sa kadaghanan. 
+812,Bisaya,Negative,1,1,SAO,Usahay sirado ang SAO bisan naa sa schedule. 
+813,Bisaya,Negative,1,1,SAO,Usahay sirado ang SAO bisan naa sa schedule. 
+814,Bisaya,Neutral,0,0,Library,Sakto ug patas ang pag-implementar sa rules. 
+815,Bisaya,Negative,1,1,Clinic,Limitado ang oras sa operasyon sa clinic. 
+816,Bisaya,Neutral,0,0,Finance/Scholarships,"Expected ra ang fees, pareho sa uban. "
+817,Bisaya,Neutral,0,0,Guidance/Counseling,Naay serbisyo basta mangita ka. 
+818,Bisaya,Positive,2,2,SAO,Approachable ug tabian ang staff sa SAO. 
+819,Bisaya,Positive,2,2,Guidance/Counseling,Nakatabang ang stress management workshops. 
+820,Bisaya,Negative,1,1,Clinic,Walay ubang tambal available. 
+821,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma.
+822,Bisaya,Positive,2,2,Administration,Responsive ang admin labi na duol na ang deadlines.
+823,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment. 
+824,Bisaya,Negative,1,1,Clinic,Limitado ang oras sa operasyon sa clinic. 
+825,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma.
+826,Bisaya,Neutral,0,0,Administration,Kumpleto ang forms pero daghan pirma. 
+827,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+828,Bisaya,Neutral,0,0,Laboratories,Hugot ang sked pero kaya ra. 
+829,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+830,Bisaya,Neutral,0,0,Library,Basic pero magamit ang resources. 
+831,Bisaya,Negative,1,1,SAO,Hinay ang pagproseso sa permits sa events. 
+832,Bisaya,Positive,2,2,Faculty,Dali ug klaro ang feedback sa outputs. 
+833,Bisaya,Positive,2,2,Finance/Scholarships,Barato ang tuition ug naa'y payment plans.
+834,Bisaya,Positive,2,2,Laboratories,Approachable ang lab sup. 
+835,Bisaya,Negative,1,1,Faculty,Naay uban magbasa ra sa slides. 
+836,Bisaya,Neutral,0,0,SAO,Nagkalahi ang oras sa approval. 
+837,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso.
+838,Bisaya,Positive,2,2,Laboratories,Updated ang equipment para sa core courses. 
+839,Bisaya,Positive,2,2,SAO,Paspas ang proseso sa requirements sa orgs.
+840,Bisaya,Positive,2,2,Laboratories,Musunod sa safety protocols. 
+841,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up.
+842,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment. 
+843,Bisaya,Negative,1,1,Finance/Scholarships,Taas ang linya sa payments.
+844,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books.
+845,Bisaya,Negative,1,1,Faculty,Lahi-lahi ang grading rubrics. 
+846,Bisaya,Neutral,0,0,Laboratories,Sapat ang supplies para sa kadaghanan.
+847,Bisaya,Neutral,0,0,Clinic,Sakto ra ang serbisyo sa clinic para basics. 
+848,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics.
+849,Bisaya,Neutral,0,0,Registrar,Standard ang requirements.
+850,Bisaya,Neutral,0,0,Finance/Scholarships,"Expected ra ang fees, pareho sa uban. "
+851,Bisaya,Positive,2,2,Library,Nindot ang extended hours during finals. 
+852,Bisaya,Positive,2,2,Laboratories,Approachable ang lab sup. 
+853,Bisaya,Neutral,0,0,SAO,Diretso ra ang interaction. 
+854,Bisaya,Positive,2,2,Registrar,Mapasensya ang staff sa clearance process. 
+855,Bisaya,Negative,1,1,Guidance/Counseling,Dali mapuno ang slots during exams.
+856,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+857,Bisaya,Positive,2,2,Laboratories,Updated ang equipment para sa core courses. 
+858,Bisaya,Neutral,0,0,EDP,Nagkalahi ang response time depende sa season. 
+859,Bisaya,Positive,2,2,Laboratories,Musunod sa safety protocols. 
+860,Bisaya,Positive,2,2,Laboratories,Approachable ang lab sup.
+861,Bisaya,Negative,1,1,Clinic,Limitado ang oras sa operasyon sa clinic. 
+862,Bisaya,Neutral,0,0,Laboratories,Hugot ang sked pero kaya ra.
+863,Bisaya,Positive,2,2,Registrar,Mas paspas kaysa gipaabot ang transcript request. 
+864,Bisaya,Positive,2,2,Administration,Klaro ang pag-announce sa mga polisiya. 
+865,Bisaya,Positive,2,2,Library,Accessible ang e-resources bisan off-campus.
+866,Bisaya,Neutral,0,0,Faculty,Mas klaro kung naay rubrics. 
+867,Bisaya,Neutral,0,0,Administration,Depende sa oras ang kahaba sa linya. 
+868,Bisaya,Neutral,0,0,Faculty,Mas klaro kung naay rubrics. 
+869,Bisaya,Positive,2,2,EDP,Kasagaran reliable ang serbisyo sa EDP.
+870,Bisaya,Negative,1,1,Laboratories,Usahay dili consistent ang aircon sa labs. 
+871,Bisaya,Negative,1,1,Laboratories,Daghang sections mag-share sa usa ka equipment. 
+872,Bisaya,Negative,1,1,Clinic,Limitado ang oras sa operasyon sa clinic. 
+873,Bisaya,Positive,2,2,SAO,Paspas ang proseso sa requirements sa orgs. 
+874,Bisaya,Neutral,0,0,Faculty,Nagkalahi ang quality pero kasagaran competent. 
+875,Bisaya,Neutral,0,0,Finance/Scholarships,Ma-process ra ang refunds bisag hinay. 
+876,Bisaya,Negative,1,1,Library,Kulang ang lingkuranan ug aircon sa peak days.
+877,Bisaya,Neutral,0,0,Registrar,Standard ang requirements.
+878,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment. 
+879,Bisaya,Positive,2,2,Library,"Hilum ug tabian ang librarians, sayon magtuon. "
+880,Bisaya,Negative,1,1,SAO,Hinay ang pagproseso sa permits sa events. 
+881,Bisaya,Negative,1,1,Clinic,Limitado ang oras sa operasyon sa clinic. 
+882,Bisaya,Positive,2,2,Clinic,Maayo ug professional ang clinic staff. 
+883,Bisaya,Neutral,0,0,Guidance/Counseling,Okay ra ang group sessions para basics. 
+884,Bisaya,Neutral,0,0,EDP,Generally consistent ang performance sa EDP. 
+885,Bisaya,Negative,1,1,Administration,Kulang ang staff during peak period.
+886,Bisaya,Negative,1,1,Guidance/Counseling,Dali mapuno ang slots during exams. 
+887,Bisaya,Neutral,0,0,SAO,Average ra ang communication sa SAO. 
+888,Bisaya,Positive,2,2,Registrar,"Klaro ang checklist, less balik-balik. "
+889,Bisaya,Negative,1,1,Library,Usahay down ang catalog search. 
+890,Bisaya,Negative,1,1,SAO,Usahay sirado ang SAO bisan naa sa schedule. 
+891,Bisaya,Neutral,0,0,Finance/Scholarships,"Expected ra ang fees, pareho sa uban. "
+892,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment. 
+893,Bisaya,Positive,2,2,EDP,Kasagaran reliable ang serbisyo sa EDP. 
+894,Bisaya,Negative,1,1,Finance/Scholarships,Naay discrepancies sa billing usahay. 
+895,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno. 
+896,Bisaya,Negative,1,1,Library,Kulang ang lingkuranan ug aircon sa peak days.
+897,Bisaya,Negative,1,1,Administration,Hinay ang papel ug daghang follow-up. 
+898,Bisaya,Positive,2,2,Finance/Scholarships,Suportado ug patas ang scholarship office. 
+899,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month. 
+900,Bisaya,Neutral,0,0,Faculty,Depende sa load ang availability.
+901,Bisaya,Negative,1,1,Faculty,Lisod makit-an ang office hours. 
+902,Bisaya,Negative,1,1,Finance/Scholarships,Taas ang linya sa payments. 
+903,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno. 
+904,Bisaya,Negative,1,1,Library,Kulang ang copies sa required books. 
+905,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno. 
+906,Bisaya,Negative,1,1,Registrar,Lahi-lahi ug tubag depende kinsa imong pangutan-on.
+907,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno.
+908,Bisaya,Neutral,0,0,EDP,Standard ra ang serbisyo para sa ingani nga school.
+909,Bisaya,Neutral,0,0,SAO,Nagkalahi ang oras sa approval.
+910,Bisaya,Negative,1,1,Library,Kulang ang lingkuranan ug aircon sa peak days.
+911,Bisaya,Neutral,0,0,Clinic,Sakto ra ang serbisyo sa clinic para basics. 
+912,Bisaya,Neutral,0,0,Registrar,Mubo ra kaayo ang email replies. 
+913,Bisaya,Positive,2,2,Registrar,Mas paspas kaysa gipaabot ang transcript request. 
+914,Bisaya,Neutral,0,0,Guidance/Counseling,Naay serbisyo basta mangita ka.
+915,Bisaya,Negative,1,1,EDP,Taas ang linya sa EDP during enrollment.
+916,Bisaya,Neutral,0,0,EDP,Nagkalahi ang response time depende sa season. 
+917,Bisaya,Negative,1,1,Laboratories,Dugay mapulihan ang naguba nga apparatus.
+918,Bisaya,Neutral,0,0,Administration,"Okay ra ang proseso, dili paspas, dili pud hinay kaayo."
+919,Bisaya,Negative,1,1,Laboratories,Usahay dili consistent ang aircon sa labs. 
+920,Bisaya,Negative,1,1,SAO,Usahay sirado ang SAO bisan naa sa schedule. 
+921,Bisaya,Negative,1,1,Administration,Kulang ang staff during peak period. 
+922,Bisaya,Negative,1,1,Faculty,Lisod makit-an ang office hours. 
+923,Bisaya,Negative,1,1,Finance/Scholarships,Taas ang linya sa payments.
+924,Bisaya,Positive,2,2,Clinic,Maayo ug professional ang clinic staff. 
+925,Bisaya,Neutral,0,0,Faculty,Mas klaro kung naay rubrics. 
+926,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+927,Bisaya,Negative,1,1,Faculty,Lisod makit-an ang office hours. 
+928,Bisaya,Positive,2,2,Administration,Responsive ang admin labi na duol na ang deadlines. 
+929,Bisaya,Neutral,0,0,EDP,Nagkalahi ang response time depende sa season. 
+930,Bisaya,Negative,1,1,SAO,Hinay ang pagproseso sa permits sa events. 
+931,Bisaya,Neutral,0,0,EDP,Nagkalahi ang response time depende sa season. 
+932,Bisaya,Neutral,0,0,Faculty,Nagkalahi ang quality pero kasagaran competent. 
+933,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts.
+934,Bisaya,Neutral,0,0,Finance/Scholarships,Ma-process ra ang refunds bisag hinay. 
+935,Bisaya,Neutral,0,0,Laboratories,Sakto ra ang oras sa lab para basics. 
+936,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails. 
+937,Bisaya,Negative,1,1,Administration,Ulahi muabot ang announcements usahay. 
+938,Bisaya,Neutral,0,0,Library,Sakto ug patas ang pag-implementar sa rules. 
+939,Bisaya,Positive,2,2,Faculty,Approachable ug naay industry experience ang mga prof.
+940,Bisaya,Positive,2,2,Finance/Scholarships,Sayu gi-announce ang discounts. 
+941,Bisaya,Negative,1,1,Administration,Ulahi muabot ang announcements usahay.
+942,Bisaya,Positive,2,2,Administration,Responsive ang admin labi na duol na ang deadlines.
+943,Bisaya,Positive,2,2,Laboratories,Approachable ang lab sup. 
+944,Bisaya,Negative,1,1,Finance/Scholarships,Naay discrepancies sa billing usahay.
+945,Bisaya,Positive,2,2,Library,"Hilum ug tabian ang librarians, sayon magtuon. "
+946,Bisaya,Positive,2,2,Clinic,Limpyo ug kompleto ang gamit sa clinic.
+947,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso. 
+948,Bisaya,Neutral,0,0,Faculty,Depende sa load ang availability. 
+949,Bisaya,Neutral,0,0,Clinic,Convenient ang location sulod sa campus. 
+950,Bisaya,Negative,1,1,SAO,Kulang ug guidance para sa bag-ong orgs.
+951,Bisaya,Positive,2,2,Library,Nindot ang extended hours during finals. 
+952,Bisaya,Neutral,0,0,Finance/Scholarships,Kulang ang slots sa scholarships pero klaro ang rules. 
+953,Bisaya,Neutral,0,0,SAO,Average ra ang communication sa SAO.
+954,Bisaya,Neutral,0,0,Library,Sakto ug patas ang pag-implementar sa rules. 
+955,Bisaya,Positive,2,2,EDP,Paspas ug sakto ang proseso sa EDP staff. 
+956,Bisaya,Neutral,0,0,Clinic,Mubo pero igo ra ang check-up. 
+957,Bisaya,Neutral,0,0,Administration,"Okay ra ang proseso, dili paspas, dili pud hinay kaayo. "
+958,Bisaya,Neutral,0,0,Registrar,Nagkalahi ang processing time per month. 
+959,Bisaya,Neutral,0,0,SAO,Average ra ang communication sa SAO.
+960,Bisaya,Neutral,0,0,Laboratories,Sapat ang supplies para sa kadaghanan.
+961,Bisaya,Positive,2,2,SAO,Approachable ug tabian ang staff sa SAO. 
+962,Bisaya,Positive,2,2,Administration,Klaro ang pag-announce sa mga polisiya. 
+963,Bisaya,Positive,2,2,Registrar,Mapasensya ang staff sa clearance process. 
+964,Bisaya,Negative,1,1,Guidance/Counseling,Sayun ma-miss ang follow-up emails.
+965,Bisaya,Negative,1,1,SAO,Hinay ang pagproseso sa permits sa events. 
+966,Bisaya,Positive,2,2,Registrar,"Klaro ang checklist, less balik-balik. "
+967,Bisaya,Negative,1,1,Administration,Ulahi muabot ang announcements usahay. 
+968,Bisaya,Neutral,0,0,Finance/Scholarships,Ma-process ra ang refunds bisag hinay.
+969,Bisaya,Neutral,0,0,Laboratories,Sapat ang supplies para sa kadaghanan. 
+970,Bisaya,Neutral,0,0,Guidance/Counseling,Naay serbisyo basta mangita ka. 
+971,Bisaya,Negative,1,1,EDP,System errors sa EDP nakapahinay sa proseso. 
+972,Bisaya,Negative,1,1,EDP,Taas ang linya sa EDP during enrollment. 
+973,Bisaya,Neutral,0,0,Finance/Scholarships,Ma-process ra ang refunds bisag hinay. 
+974,Bisaya,Neutral,0,0,EDP,Standard ra ang serbisyo para sa ingani nga school. 
+975,Bisaya,Positive,2,2,Library,"Hilum ug tabian ang librarians, sayon magtuon. "
+976,Bisaya,Positive,2,2,EDP,Tukma ang updates sa system ug nakapaminus ug errors.
+977,Bisaya,Neutral,0,0,Registrar,Standard ang requirements.
+978,Bisaya,Neutral,0,0,Registrar,Standard ang requirements.
+979,Bisaya,Neutral,0,0,SAO,Average ra ang communication sa SAO.
+980,Bisaya,Positive,2,2,Faculty,Approachable ug naay industry experience ang mga prof. 
+981,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno. 
+982,Bisaya,Positive,2,2,Laboratories,Musunod sa safety protocols. 
+983,Bisaya,Positive,2,2,Administration,Responsive ang admin labi na duol na ang deadlines.
+984,Bisaya,Positive,2,2,Guidance/Counseling,Empathetic ang counselors ug by appointment. 
+985,Bisaya,Positive,2,2,Clinic,Limpyo ug kompleto ang gamit sa clinic.
+986,Bisaya,Neutral,0,0,Finance/Scholarships,"Expected ra ang fees, pareho sa uban."
+987,Bisaya,Negative,1,1,Faculty,Lahi-lahi ang grading rubrics. 
+988,Bisaya,Positive,2,2,EDP,Kasagaran reliable ang serbisyo sa EDP. 
+989,Bisaya,Neutral,0,0,Laboratories,Sapat ang supplies para sa kadaghanan.
+990,Bisaya,Negative,1,1,Registrar,Molapas sa timeline ang release sa documents.
+991,Bisaya,Negative,1,1,Finance/Scholarships,Stiff kaayo ang deadlines. 
+992,Bisaya,Negative,1,1,Laboratories,Daghang sections mag-share sa usa ka equipment.
+993,Bisaya,Negative,1,1,Administration,Ulahi muabot ang announcements usahay.
+994,Bisaya,Positive,2,2,Library,"Hilum ug tabian ang librarians, sayon magtuon. "
+995,Bisaya,Neutral,0,0,EDP,Standard ra ang serbisyo para sa ingani nga school. 
+996,Bisaya,Positive,2,2,Finance/Scholarships,Barato ang tuition ug naa'y payment plans. 
+997,Bisaya,Negative,1,1,Clinic,Gamay ra ang lugar ug dali mapuno. 
+998,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement.
+999,Bisaya,Neutral,0,0,Clinic,Sakto ra ang serbisyo sa clinic para basics. 
+1000,Bisaya,Negative,1,1,Registrar,Ang queuing system kinahanglan pa og improvement. 
+,,,,1,,

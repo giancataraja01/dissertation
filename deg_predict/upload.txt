@@ -1,0 +1,40 @@
+import pandas as pd
+from django.shortcuts import render
+from .forms import UploadCSVForm
+from .models import StudentRecord
+
+
+def upload_dataset(request):
+    if request.method == "POST":
+        form = UploadCSVForm(request.POST, request.FILES)
+        if form.is_valid():
+            csv_file = request.FILES['file']
+            df = pd.read_csv(csv_file)
+
+            # Optional: Rename columns to match model fields if needed
+            df.columns = [col.strip().lower() for col in df.columns]
+
+            for _, row in df.iterrows():
+                StudentRecord.objects.create(
+                    shs_gpa=row['shs_gpa'],
+                    coll_gpa=row['coll_gpa'],
+                    age=row['age'],
+                    sex=row['sex'],
+                    is_boarding=row['is_boarding'],
+                    is_living_with_family=row['is_living_with_family'],
+                    is_province=row['is_province'],
+                    is_scholar=row['is_scholar'],
+                    father_educ=row['father_educ'],
+                    mother_educ=row['mother_educ'],
+                    financial_status=row['financial_status'],
+                    is_graduate=row['is_graduate'],
+                    feedback=row['feedback'],
+                    sentiments=row['sentiments'],
+                    department=row['department']
+                )
+
+            return render(request, 'upload_dataset/upload_success.html')
+    else:
+        form = UploadCSVForm()
+
+    return render(request, 'upload_dataset/upload_form.html', {'form': form})

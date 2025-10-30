@@ -1,0 +1,59 @@
+import numpy as np
+from sklearn.metrics import accuracy_score, classification_report
+
+def predict_with_confidence(model, input_data):
+    prediction = model.predict(input_data)
+    proba = model.predict_proba(input_data)
+    result = "likely to complete a degree" if prediction[0] == 1 else "unlikely to complete degree"
+    confidence = np.max(proba[0])
+    return result, confidence
+
+def analyze_sentiment_with_confidence(model, feedback):
+    sentiment = model.predict([feedback])[0]
+    proba = model.predict_proba([feedback])[0]
+    confidence = np.max(proba)
+    sentiment_str = {0: "Neutral", 1: "Negative", 2: "Positive"}.get(sentiment, "Unknown")
+    return sentiment_str, confidence
+
+def calculate_combined_predictions(dt_pred, dt_conf, svm_pred, svm_conf):
+    dt_value = 1 if dt_pred == "likely to complete a degree" else 0
+    svm_value = 1 if svm_pred == "Positive" else (0.5 if svm_pred == "Neutral" else 0)
+    score = (dt_value * dt_conf * 0.9) + (svm_value * svm_conf * 0.1)
+    if score >= 0.6:
+        return ("likely to complete a degree", score)
+    elif score >= 0.4:
+        return ("moderately likely to complete a degree", score)
+    else:
+        return ("unlikely to complete degree", score)
+
+def analyze_dropout_factors(df):
+    risks = []
+    if df['shs_gpa'].values[0] < -0.5:
+        risks.append("Low SHS GPA")
+    if df['coll_gpa'].values[0] < -0.5:
+        risks.append("Low College GPA")
+    if df['is_scholar'].values[0] == 0:
+        risks.append("Not a Scholar")
+    if df['is_boarding'].values[0] == 1:
+        risks.append("Lives in a Boarding House")
+    if df['is_living_with_family'].values[0] == 0:
+        risks.append("Not Living with Family")
+    if df['financial_status'].values[0] < -0.5:
+        risks.append("Low Parental Income")
+    if df['father_educ'].values[0] <= 2:
+        risks.append("Low Father Education")
+    if df['mother_educ'].values[0] <= 2:
+        risks.append("Low Mother Education")
+    return risks
+
+def evaluate_dt_model(model, X_test, y_test):
+    y_pred = model.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+    report = classification_report(y_test, y_pred, output_dict=True)
+    return acc, report
+
+def evaluate_svm_model(model, X_test, y_test):
+    y_pred = model.predict(X_test)
+    acc = accuracy_score(y_test, y_pred)
+    report = classification_report(y_test, y_pred, output_dict=True)
+    return acc, report

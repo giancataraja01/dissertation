@@ -1,0 +1,208 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Login</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="{%static 'css/sb-admin-2.min.css'%}" rel="stylesheet">
+
+</head>
+
+<body class="bg-gradient-primary">
+
+     <div class="container">
+        <form method="Post">
+            {% csrf_token %}       
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+                    <div class="col-lg-12">
+                        <div class="p-5">
+                            <div class="text-center">
+                                  <h1 class="h4 text-gray-900 mb-4">Attributes to Predict Degree Completion</h1> 
+                                  <hr> 
+                            </div>
+                            <form class="user">
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        Senior High School GPA
+                                         <select id="shsGPA" name="shsGPA" class="form-control form-control-solid">
+                                          <option selected disabled>--Select Grade--</option>                                                
+                                         </select>    
+                                    </div>
+                                    <div class="col-sm-6">
+                                        College GPA Four Semesters
+                                                <select id="collGPA" name="collGPA" class="form-control form-control-solid">
+                                                    <option selected disabled>--Select Grade--</option>                                                
+                                                </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                      Age
+                                       <input type="number" class="form-control form-control-solid"
+                                                id="age" name="age" placeholder="Age of the Student" min=1 max=120>   
+                                    </div>
+                                    <div class="col-sm-6">
+                                      Sex
+                                       <select id="sex" name="sex" class="form-control form-control-solid" required>
+                                            <option value="" disabled {% if not selected_sex %}selected{% endif %}>-- Select Sex --</option>
+                                            <option value="1" {% if selected_sex == '1' %}selected{% endif %}>Male</option>
+                                            <option value="0" {% if selected_sex == '0' %}selected{% endif %}>Female</option>
+                                        </select>
+                                    </div>
+                                 </div>
+                                 <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                      Living in a Boarding House
+                                       <select id="bh" name="bh" class="form-control form-control-solid" required>
+                                            <option value="" disabled {% if not selected_bh %}selected{% endif %}>-- Select --</option>
+                                            <option value="1" {% if selected_bh == '1' %}selected{% endif %}>Yes</option>
+                                            <option value="0" {% if selected_bh == '0' %}selected{% endif %}>No</option>
+                                        </select> 
+                                    </div>
+                                    <div class="col-sm-6">
+                                        Living with Family
+                                         <select id="liv_fam" name="liv_fam" class="form-control form-control-solid" required>
+                                            <option value="" disabled {% if not selected_fam %}selected{% endif %}>-- Select --</option>
+                                            <option value="1" {% if selected_fam == '1' %}selected{% endif %}>Yes</option>
+                                            <option value="0" {% if selected_fam == '0' %}selected{% endif %}>No</option>
+                                        </select> 
+                                    </div>
+                                 </div>
+                                 
+                                 <div class="form-group row">
+                                   <div class="col-sm-6 mb-3 mb-sm-0">
+                                      Living in the Province
+                                            <select id="liv_prov" name="liv_prov" class="form-control form-control-solid" required>
+                                            <option value="" disabled {% if not selected_prov %}selected{% endif %}>-- Select --</option>
+                                            <option value="1" {% if selected_prov == '1' %}selected{% endif %}>Yes</option>
+                                            <option value="0" {% if selected_prov == '0' %}selected{% endif %}>No</option>
+                                        </select> 
+                                    </div>
+                                    <div class="col-sm-6">
+                                         Are you a scholar?
+                                          <select id="schlr" name="schlr" class="form-control form-control-solid" required>
+                                            <option value="" disabled {% if not selected_schlr %}selected{% endif %}>-- Select --</option>
+                                            <option value="1" {% if selected_schlr == '1' %}selected{% endif %}>Yes</option>
+                                            <option value="0" {% if selected_schlr == '0' %}selected{% endif %}>No</option>
+                                         </select> 
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                   <div class="col-sm-6 mb-3 mb-sm-0">
+                                      Father Educational Background
+                                            <select id="f_educ" name="f_educ" class="form-control form-control-solid" required>
+                                             <option value="" disabled {% if not selected_f_educ %}selected{% endif %}>-- Select --</option>
+                                             <option value="1" {% if selected_f_educ == '1' %}selected{% endif %}>Primary Education</option>
+                                             <option value="2" {% if selected_f_educ == '2' %}selected{% endif %}>Secondary Education</option>
+                                             <option value="3" {% if selected_f_educ == '3' %}selected{% endif %}>College Level</option>
+                                             <option value="4" {% if selected_f_educ == '4' %}selected{% endif %}>College Degree</option>
+                                             <option value="5" {% if selected_f_educ == '5' %}selected{% endif %}>Post Graduate</option>
+                                            </select>
+                                    </div>
+                                    <div class="col-sm-6">
+                                         Mother Educational Background
+                                            <select id="m_educ" name="m_educ" class="form-control form-control-solid" required>
+                                             <option value="" disabled {% if not selected_m_educ %}selected{% endif %}>-- Select --</option>
+                                             <option value="1" {% if selected_m_educ == '1' %}selected{% endif %}>Primary Education</option>
+                                             <option value="2" {% if selected_m_educ == '2' %}selected{% endif %}>Secondary Education</option>
+                                             <option value="3" {% if selected_m_educ == '3' %}selected{% endif %}>College Level</option>
+                                             <option value="4" {% if selected_m_educ == '4' %}selected{% endif %}>College Degree</option>
+                                             <option value="5" {% if selected_m_educ == '5' %}selected{% endif %}>Post Graduate</option>
+                                            </select> 
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group row">
+                                   <div class="col-sm-6 mb-3 mb-sm-0">
+                                       Parents Financial Monthly Income
+                                            <select id="fin_inc" name="fin_inc" class="form-control form-control-solid" required>
+                                             <option value="" disabled {% if not selected_income %}selected{% endif %}>-- Select --</option>
+                                             <option value="1" {% if selected_income == '1' %}selected{% endif %}>less than 10,957</option>
+                                             <option value="2" {% if selected_income == '2' %}selected{% endif %}>10,957 to 21,914</option>
+                                             <option value="3" {% if selected_income == '3' %}selected{% endif %}>43,828 to 76,669</option>
+                                             <option value="4" {% if selected_income == '4' %}selected{% endif %}>76,669 to 131,484</option>
+                                             <option value="5" {% if selected_income == '5' %}selected{% endif %}>131,484 to 219,140</option>
+                                             <option value="5" {% if selected_income == '6' %}selected{% endif %}>219,140 and above</option>
+                                            </select>                                             
+                                    </div>
+                                    <div class="col-sm-6"></div>
+                                </div>
+
+                                <div class="form-group">
+                                    Feedback
+                                    <input type="text" class="form-control form-control-solid" id="feedback"
+                                        placeholder="Students Feedback or Comments">
+                                </div>  
+                                <hr>
+                                <div class="form-group row">
+                                   <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <input type="submit" value="Predict" class="btn btn-primary btn-user btn-block">   
+                                    
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a href="dashboard/dashboard.html.html" class="btn btn-google btn-user btn-block">
+                                         <i class="fab fa-google fa-fw"></i> Cancel</a>
+                                    </div>
+                                </div>    
+                            </form>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        function populateGPASelect(selectId, start = 1.0, end = 5.0, step = 0.1) {
+            const select = document.getElementById(selectId);
+            for (let gpa = start; gpa <= end + 0.001; gpa += step) {
+                const formatted = gpa.toFixed(1);
+                const option = document.createElement("option");
+                option.value = formatted;
+                option.textContent = formatted;
+                select.appendChild(option);
+            }
+        }
+
+        populateGPASelect("shsGPA");
+        populateGPASelect("collGPA");
+    });
+</script>

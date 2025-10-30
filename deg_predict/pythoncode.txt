@@ -1,0 +1,103 @@
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.pipeline import make_pipeline
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.svm import SVC
+import numpy as np
+
+from upload_dataset.models import StudentRecord
+
+
+def upload_and_preprocess_data_from_db():
+    queryset = StudentRecord.objects.all().values()
+    data = pd.DataFrame(list(queryset))
+
+    if data.empty:
+        raise ValueError("No student data found in the database.")
+
+    # Ensure 'IS_GRADUATE' is binary
+    if data['IS_GRADUATE'].dtype == object:
+        data['IS_GRADUATE'] = data['IS_GRADUATE'].map({
+            'Completed': 1,
+            'Not Completed': 0
+        })
+
+    # Feedback subset
+    feedback_data = data[['feedback', 'sentiments']].dropna()
+
+    # Features/Labels
+    columns_to_drop = ['IS_GRADUATE', 'Department', 'sentiments', 'feedback']
+    X = data.drop(
+        columns=[col for col in columns_to_drop if col in data.columns])
+    y = data['IS_GRADUATE']
+
+    # Normalize numeric columns
+    numerical_cols = ['SHS_GPA_AVERAGE',
+                      'COLL_GPA_AVERAGE', 'AGE', 'PARENTS_MONTHLY_INCOME']
+    scaler = StandardScaler()
+    X[numerical_cols] = scaler.fit_transform(X[numerical_cols])
+
+    # Sentiment
+    X_feedback = feedback_data['feedback'].fillna("").astype(str)
+    y_sentiment = feedback_data['sentiments']
+
+    return X, y, X_feedback, y_sentiment, scaler
+
+
+def train_decision_tree(X, y):
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42)
+    dt_classifier = DecisionTreeClassifier(
+        max_depth=10,
+        min_samples_leaf=2,
+        min_samples_split=4,
+        min_impurity_decrease=0.01,
+        ccp_alpha=0.1,
+        random_state=42
+    )
+    dt_classifier.fit(X_train, y_train)
+
+    y_pred = dt_classifier.predict(X_test)
+    print("\nDecision Tree Performance:")
+    print("Accuracy:", accuracy_score(y_test, y_pred))
+    print("Classification Report:\n", classification_report(y_test, y_pred))
+
+    return dt_classifier, X_test, y_test
+
+
+def train_svm_sentiment(X_feedback, y_sentiment):
+    X_train, X_test, y_train, y_test = train_test_split(
+        X_feedback, y_sentiment, test_size=0.2, random_state=42)
+
+    svm_pipeline = make_pipeline(
+        TfidfVectorizer(),
+        SVC(
+            kernel='rbf',
+            C=1.0,
+            gamma='scale',
+            probability=True,
+            random_state=42,
+            class_weight='balanced'
+        )
+    )
+    svm_pipeline.fit(X_train, y_train)
+
+    y_pred = svm_pipeline.predict(X_test)
+    print("\nSVM Performance for Sentiment Analysis:")
+    print("Accuracy:", accuracy_score(y_test, y_pred))
+    print("Classification Report:\n", classification_report(y_test, y_pred))
+
+    return svm_pipeline, X_test, y_test
+
+
+
+
+
+
+
+
+
+
