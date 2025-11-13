@@ -1,4 +1,7 @@
-#!/usr/bin/env bash
-pip install -r requirements.txt
-python manage.py collectstatic --noinput
-python manage.py migrate
+services:
+  - type: web
+    name: django-deg-predict
+    env: python
+    rootDir: deg_predict
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn deg_predict.wsgi:application"
