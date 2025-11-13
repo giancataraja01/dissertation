@@ -4,9 +4,10 @@ services:
     env: python
     plan: free
 
-    # Where manage.py is located (relative to repo root)
+    # working directory points to where manage.py is located
     workingDirectory: deg_predict/deb_predict
 
+    # install dependencies from root requirements.txt (two levels up from workingDirectory)
     buildCommand: "pip install -r ../../requirements.txt && python manage.py collectstatic --noinput"
     startCommand: "gunicorn deb_predict.wsgi:application"
 
