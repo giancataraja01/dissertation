@@ -10,3 +10,4 @@ scikit-learn
 matplotlib
 wordcloud
 reportlab
+dj-database-url
