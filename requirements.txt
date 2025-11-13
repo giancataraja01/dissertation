@@ -1,4 +1,4 @@
-Django
+Django>=4.0
 gunicorn
 python-dotenv
 django-extensions
@@ -11,3 +11,4 @@ matplotlib
 wordcloud
 reportlab
 dj-database-url
+whitenoise
