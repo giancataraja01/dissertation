@@ -17,6 +17,14 @@ SECRET_KEY = "django-insecure-n--)(k*3ke+j=)!5#pha#+(pu7!sa74)nmk=i%7w!2-ibb%vfk
 # In production, set DEBUG=False (Render can inject an ENV var later)
 DEBUG = True
 
+#This is temporary
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+#End of temporary
+
 # Allow all hosts for now (you can restrict this later)
 ALLOWED_HOSTS = ['*']
 
