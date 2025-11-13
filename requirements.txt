@@ -1,0 +1,12 @@
+Django
+gunicorn
+python-dotenv
+django-extensions
+psycopg2-binary
+joblib
+pandas
+openai
+scikit-learn
+matplotlib
+wordcloud
+reportlab
