@@ -9,7 +9,7 @@ services:
 
     # install dependencies from root requirements.txt (two levels up from workingDirectory)
     buildCommand: "pip install -r ../../requirements.txt && python manage.py collectstatic --noinput"
-    startCommand: "gunicorn deb_predict.wsgi:application"
+    startCommand: "gunicorn deg_predict.wsgi:application"
 
     envVars:
       - key: DJANGO_SETTINGS_MODULE
