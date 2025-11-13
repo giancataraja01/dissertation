@@ -11,4 +11,3 @@ matplotlib
 wordcloud
 reportlab
 dj-database-url
-whitenoise
