@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: django-app
+    env: python
+    rootDir: pythons
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn pythons.wsgi:application --bind 0.0.0.0:8000"
+    envVars:
+      - key: DATABASE_URL
+        sync: false
