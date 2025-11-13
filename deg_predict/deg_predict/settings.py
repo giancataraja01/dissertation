@@ -90,16 +90,29 @@ WSGI_APPLICATION = "deg_predict.wsgi.application"
 #       "NAME": BASE_DIR / "db.sqlite3",
 #   }
 # }
+
+#DATABASES = {
+    #'default': {
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME': 'postgresdb',
+        #'USER': 'postgres',
+        #'PASSWORD': '1234',
+        #'HOST': 'localhost',  # or your DB server IP
+        #'PORT': '5432',        # default PostgreSQL port
+    #}
+#}
+
+import dj_database_url
+import os
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgresdb',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',  # or your DB server IP
-        'PORT': '5432',        # default PostgreSQL port
-    }
+    'default': dj_database_url.config(
+        default=os.getenv("DATABASE_URL"),
+        conn_max_age=600,
+        ssl_require=True
+    )
 }
+
 
 
 # Password validation
