@@ -25,9 +25,16 @@ MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 #End of temporary
 
+#added my me
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+#end of added
+
 # Allow all hosts for now (you can restrict this later)
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 INSTALLED_APPS = [
