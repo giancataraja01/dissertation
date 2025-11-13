@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: django-deg-predict
+    name: dissertation-app
     env: python
     rootDir: deg_predict
     buildCommand: "./build.sh"
