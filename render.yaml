@@ -1,7 +1,15 @@
 services:
   - type: web
-    name: dissertation-app
+    name: django-app
     env: python
-    rootDir: deg_predict
-    buildCommand: "./build.sh"
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn deg_predict.wsgi:application"
+
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: deg_predict.settings
+      - key: PYTHON_VERSION
+        value: 3.10
+
+    autoDeploy: true
