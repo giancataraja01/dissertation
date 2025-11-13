@@ -3,13 +3,15 @@ services:
     name: django-app
     env: python
     plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn deg_predict.wsgi:application"
+
+    # IMPORTANT: set working directory to where manage.py is located
+    workingDirectory: dissertation/deg_predict/deb_predict
+
+    buildCommand: "pip install -r ../../../requirements.txt && python manage.py collectstatic --noinput"
+    startCommand: "gunicorn deb_predict.wsgi:application"
 
     envVars:
       - key: DJANGO_SETTINGS_MODULE
-        value: deg_predict.settings
+        value: deb_predict.settings
       - key: PYTHON_VERSION
         value: 3.10
-
-    autoDeploy: true
