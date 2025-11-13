@@ -93,7 +93,7 @@ WSGI_APPLICATION = "deg_predict.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'postgresdb',
         'USER': 'postgres',
         'PASSWORD': '1234',
         'HOST': 'localhost',  # or your DB server IP
